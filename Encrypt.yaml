@@ -9,7 +9,7 @@ dns:
     - tls://1.1.1.1:853
     - tls://8.8.8.8:853
     - tcp://1.1.1.1
-# hanan
+# =================NAN UNLIMITED=================
 tun:
   enable: true
   stack: gvisor
@@ -19,10 +19,10 @@ tun:
     - 198.18.0.2:53
   auto-route: true
   auto-detect-interface: true
-# ================= proxies ==================
+# ================= proxies =================
 proxies:
 - {name: BIZNET, server: id3.bukanvvip.my.id, port: 443, type: vmess, uuid: a133595a-1326-421b-b250-8eeeb0938e01, alterId: 0, udp: true, cipher: auto, tls: true, skip-cert-verify: true, servername:  v24.tiktokcdn.com, network: ws, ws-opts: {path: /bukanvvip , headers: {Host:  v24.tiktokcdn.com}}}
-# ================= proxy-groups==================
+# ================= proxy-groups =================
 proxy-groups:
 - name: 🔑Proxy
   type: select
@@ -39,7 +39,7 @@ proxy-groups:
   proxies:
     - DIRECT
     - 🔑Proxy
-# ================= RULES ==================
+# ================= RULES =================
 rules:
 - DOMAIN,mobile-legends.net,🎮Games
 - DOMAIN,face.yuanzhanapp.com,🎮Games
