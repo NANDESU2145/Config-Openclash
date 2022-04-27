@@ -1,4 +1,11 @@
 ---
+mixed-port: 1080
+redir-port: 7892
+allow-lan: true
+mode: Rule
+log-level: error
+secret: 123456
+external-controller: 0.0.0.0:9090
 unified-delay: true
 dns:
   enable: true
