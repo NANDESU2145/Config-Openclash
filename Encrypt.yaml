@@ -21,24 +21,7 @@ tun:
   auto-detect-interface: true
 # ================= proxies =================
 proxies:
-- {
-  name: BIZNET, 
-  server: id3.bukanvvip.my.id, 
-  port: 443, 
-  type: vmess, 
-  uuid: a133595a-1326-421b-b250-8eeeb0938e01, 
-  alterId: 0, 
-  udp: true, 
-  cipher: auto, 
-  tls: true, 
-  skip-cert-verify: true, 
-  servername:  v24.tiktokcdn.com, 
-  network: ws, 
-  ws-opts: {
-    path: /bukanvvip ,
-    headers: {Host:  v24.tiktokcdn.com}}
-  
-}
+- {name: BIZNET, server: id3.bukanvvip.my.id, port: 443, type: vmess, uuid: a133595a-1326-421b-b250-8eeeb0938e01, alterId: 0, udp: true, cipher: auto, tls: true, skip-cert-verify: true, servername: v24.tiktokcdn.com, network: ws, ws-opts: {path: /bukanvvip, headers: {Host: v24.tiktokcdn.com}}}
 # ================= proxy-groups =================
 proxy-groups:
 - name: 🔑Proxy
