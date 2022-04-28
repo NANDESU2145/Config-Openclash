@@ -13,5 +13,7 @@ Config ini Tersedia untuk clash Android dan clash untuk openwrt
 ### Features
 - Kegunaan untuk mengubah dan memperbarui config otomatis.
 
-| Rules Support | Proxifier | Surge 2 | Surge 3 |
+| Proxi_Provider | Vmess | vless | Trojan |
 | --- | --- | --- | --- |
+| --- | --- | --- | --- |
+| --- | --- | --- | --- || --- | --- | --- | --- || --- | --- | --- | --- |
