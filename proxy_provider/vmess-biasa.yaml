@@ -1,0 +1,16 @@
+proxies:
+- name: BIZNET
+  type: vmess
+  server: id3.bukanvvip.my.id
+  port: 443
+  uuid: a133595a-1326-421b-b250-8eeeb0938e01
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: v24.tiktokcdn.com
+  network: ws
+  ws-path: /bukanvvip
+  ws-headers:
+    Host: v24.tiktokcdn.com
