@@ -1,4 +1,5 @@
-- name: singapore
+proxies:
+- name: SGDO
   type: vmess
   server: 51.79.222.222
   port: 443
