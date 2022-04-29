@@ -43,24 +43,14 @@ proxy-groups:
 - name: 🔑Proxy
   type: select
   proxies:
-    - SERVER BIZNET INDO
-    - SERVER SINGAPORE
     - Loadbalancing
-- name: SERVER BIZNET INDO
-  type: select
-  use: 
-  - BIZNET
-- name: SERVER SINGAPORE
-  type: select
-  use: 
-  - SGDO
 - name: Loadbalancing
   type: load-balance
   strategy: round-robin
   disable-udp: false
-  proxies:
-  - SERVER BIZNET INDO
-  - SERVER SINGAPORE
+  use:
+  - BIZNET
+  - SGDO
   url: http://cp.cloudflare.com/
   interval: 300
 - name: ❌AdBlock
