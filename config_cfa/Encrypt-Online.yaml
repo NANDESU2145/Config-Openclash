@@ -22,7 +22,7 @@ tun:
 proxy-providers:
   BIZNET:
     type: http
-    path: ./proxy_provider/vmess-biasa.yaml
+    path: "./proxy_provider/vmess-biasa.yaml"
     url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/proxy_provider/vmess-biasa.yaml
     interval: 84600
     health-check:
@@ -31,7 +31,7 @@ proxy-providers:
       interval: 300
   SGDO:
     type: http
-    path: ./proxy_provider/sgdo.yaml
+    path: "./proxy_provider/sgdo.yaml"
     url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/proxy_provider/sgdo.yaml
     interval: 84600
     health-check:
@@ -44,14 +44,10 @@ proxy-groups:
   type: select
   proxies:
     - SERVER BIZNET INDO
-    - SERVER SINGAPORE
 - name: SERVER BIZNET INDO
   type: select
   use: 
   - BIZNET
-- name: SERVER SINGAPORE
-  type: select
-  use:
   - SGDO
 - name: ❌AdBlock
   type: select
