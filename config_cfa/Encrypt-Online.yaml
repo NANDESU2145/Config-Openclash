@@ -35,10 +35,15 @@ proxy-groups:
   type: select
   proxies:
     - SERVER BIZNET INDO
+    - SERVER SINGAPORE
 - name: SERVER BIZNET INDO
   type: select
   use: 
   - BIZNET
+- name: SERVER SINGAPORE
+  type: select
+  use:
+  - SGDO
 - name: ❌AdBlock
   type: select
   proxies:
