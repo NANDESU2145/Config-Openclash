@@ -61,6 +61,8 @@ proxy-groups:
   proxies:
   - SERVER BIZNET INDO
   - SERVER SINGAPORE
+  url: 'http://cp.cloudflare.com/'
+  interval: 240
 - name: ❌AdBlock
   type: select
   proxies:
