@@ -11,6 +11,7 @@ proxies:
   skip-cert-verify: true
   servername: v24.tiktokcdn.com
   network: ws
-  ws-path: /bukanvvip
-  ws-headers:
-    Host: v24.tiktokcdn.com
+  ws-opts:
+    path: /bukanvvip
+    headers:
+      Host: v24.tiktokcdn.com
