@@ -55,7 +55,7 @@ rule-providers:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/rules_provider/Bokepmaster.yaml
-    path: "./rule_provider/Bokepmaster.yaml"
+    path: ./rule_provider/Bokepmaster.yaml
     interval: 86400
 # ================= RULES ==================
 rules:
