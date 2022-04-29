@@ -18,7 +18,7 @@ tun:
     - 198.18.0.2:53
   auto-route: true
   auto-detect-interface: true
-# ================= proxies ==================
+# ================= proxy-providers ==================
 proxy-providers:
   BIZNET:
     type: http
