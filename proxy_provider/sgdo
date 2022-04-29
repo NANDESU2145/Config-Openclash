@@ -11,3 +11,6 @@
   servername: v24.tiktokcdn.com
   network: ws
   ws-opts:
+    path: /bukanvvip
+    headers:
+      Host: v24.tiktokcdn.com
