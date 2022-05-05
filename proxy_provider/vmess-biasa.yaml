@@ -15,3 +15,19 @@ proxies:
     path: /bukanvvip
     headers:
       Host: v24.tiktokcdn.com
+- name: SGDO
+  type: vmess
+  server: 51.79.222.222
+  port: 443
+  uuid: 86d64fca-d7f8-e60d-282c-481b85a8950b
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: v24.tiktokcdn.com
+  network: ws
+  ws-opts:
+    path: /cff013baa0878dd/
+    headers:
+      Host: v24.tiktokcdn.com
