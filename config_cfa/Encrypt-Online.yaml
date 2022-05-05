@@ -78,7 +78,6 @@ proxy-groups:
   - BIZNET
   - SGDO
   - Trojan
-  url: 'http://www.gstatic.com/generate_204'
   interval: 300
   lazy: true
   disable-udp: false
