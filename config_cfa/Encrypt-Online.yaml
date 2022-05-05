@@ -53,6 +53,9 @@ proxy-groups:
   type: select
   proxies:
     - Loadbalancing
+    - all-akun
+    - auto_select_ping_imut
+    - fallback-auto
 - name: Loadbalancing
   type: load-balance
   strategy: round-robin
@@ -63,6 +66,32 @@ proxy-groups:
   - Trojan
   url: http://cp.cloudflare.com/
   interval: 300
+- name: all-akun
+  type: select
+  use:
+  - BIZNET
+  - SGDO
+  - Trojan
+- name: auto_select_ping_imut
+  type: url-test
+  use:
+  - BIZNET
+  - SGDO
+  - Trojan
+   url: 'http://www.gstatic.com/generate_204'
+   interval: 300
+   lazy: true
+   disable-udp: false
+- name: fallback-auto
+  type: fallback
+  use: 
+  - BIZNET
+  - SGDO
+  - Trojan
+  url: 'http://www.gstatic.com/generate_204'
+  interval: 300
+  lazy: true
+  disable-udp: false
 - name: ❌AdBlock
   type: select
   proxies:
