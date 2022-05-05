@@ -1,0 +1,25 @@
+proxies:
+- name: JKT1
+  type: trojan
+  server: id2-trojan.bonds.id
+  port: 443
+  password: 9035c7b0-c785-11ec-b56d-1239d0255272
+  udp: true
+  sni: p16-tiktok-sg.ibyteimg.com
+  skip-cert-verify: true
+- name: IKD1
+  type: trojan
+  server: idtj-ikd.bonds.id
+  port: 443
+  password: 8904a0a0-c772-11ec-87ba-1239d0255272
+  udp: true
+  sni: p16-tiktok-sg.ibyteimg.com
+  skip-cert-verify: true
+- name: BTN1
+  type: trojan
+  server: id5-trojan.bonds.id
+  port: 443
+  password: 49e1e630-c786-11ec-9011-1239d0255272
+  udp: true
+  sni: p16-tiktok-sg.ibyteimg.com
+  skip-cert-verify: true
