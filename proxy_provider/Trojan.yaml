@@ -21,5 +21,5 @@ proxies:
   port: 443
   password: 49e1e630-c786-11ec-9011-1239d0255272
   udp: true
-  sni: p16-tiktok-sg.ibyteimg.com
+  sni: v24.tiktokcdn.com
   skip-cert-verify: true
