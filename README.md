@@ -16,7 +16,7 @@ Config ini Tersedia untuk clash Android dan clash untuk openwrt
 
 | Proxi_Provider | Vmess | vless | Trojan |
 | --- | --- | --- | --- |
-| Port 80 | ✅ | ❌ | ❌ |
-| port 443 WEBSOCKET | ✅ | ❌ | ❌ |
-| Port 443 SSL | ✅ | ❌ | ❌ |
+| Port 80 | ✅ | ❌ | ✅ |
+| port 443 WEBSOCKET | ✅ | ❌ | ✅ |
+| Port 443 SSL | ✅ | ❌ | ✅ |
 
