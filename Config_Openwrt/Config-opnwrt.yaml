@@ -774,4 +774,5 @@ rules:
 - IP-CIDR,131.0.72.0/22,🔑Proxy
 - GEOIP,GLOBAL
 - RULE-SET,Bokepmaster,❌AdBlock
+- RULE-SET,Iklanmaster,❌AdBlock
 - MATCH,🔑Proxy
