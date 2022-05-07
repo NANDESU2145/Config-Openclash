@@ -13,7 +13,7 @@ Config ini Tersedia untuk clash Android dan clash untuk openwrt
 ### Features
 - Kegunaan untuk mengubah dan memperbarui config otomatis.
 
-
+## Proxy Provider 
 | Proxy_Provider | Vmess | vless | Trojan |
 | --- | --- | --- | --- |
 | port 443 WEBSOCKET | ✅ | ❌ | ✅ |
@@ -26,3 +26,9 @@ Config ini Tersedia untuk clash Android dan clash untuk openwrt
 | JKT1 | ❌ | ✅ | ❌ |
 | IKD1 | ❌ | ❌ | ❌ |
 | BTN1 | ❌ | ✅ | ❌ |
+
+## Rules provider
+
+| Bokep_Master | Iklan_Master | Game_master | Sosmed_Master | Streming_Master |
+| --- | --- | --- | --- | --- |
+| ❌ Block | ❌ Block | ✅ Direct | ✅ Direct | ✅ Direct |
