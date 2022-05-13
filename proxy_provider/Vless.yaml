@@ -1,0 +1,16 @@
+proxies:
+- name: vless trial 3day
+  server: cloud.hostserver.my.id
+  port: 443
+  type: vless
+  uuid: a1a92fbd-fb38-40fe-d33a-681325e2d41a
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: v24.tiktokcdn.com
+  network: ws
+  udp: true
+  ws-opts:
+    path: /cloud
+    headers:
+      Host: v24.tiktokcdn.com
