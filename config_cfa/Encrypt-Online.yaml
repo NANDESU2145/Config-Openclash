@@ -38,6 +38,10 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
+  Vless: 
+    type: http
+    path: "./proxy_provider/vless.yaml"
+    url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/proxy_provider/Vless.yaml
 # ================= proxy-groups==================
 proxy-groups:
 - name: 🔑Proxy
@@ -54,6 +58,7 @@ proxy-groups:
   use:
   - BIZNET
   - Trojan
+  - Vless
   url: http://cp.cloudflare.com/
   interval: 300
 - name: all-akun
@@ -61,11 +66,13 @@ proxy-groups:
   use:
   - BIZNET
   - Trojan
+  - Vless
 - name: auto_select_ping_imut
   type: url-test
   use:
   - BIZNET
   - Trojan
+  - Vless
   url: http://cp.cloudflare.com/
   interval: 300
   lazy: true
@@ -75,6 +82,7 @@ proxy-groups:
   use: 
   - BIZNET
   - Trojan
+  - Vless
   url: http://cp.cloudflare.com/
   interval: 300
   lazy: true
