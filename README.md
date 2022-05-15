@@ -16,8 +16,8 @@ Config ini Tersedia untuk clash Android dan clash untuk openwrt
 ## Proxy Provider 
 | Proxy_Provider | Vmess | vless | Trojan |
 | --- | --- | --- | --- |
-| port 443 WEBSOCKET | ✅ | ❌ | ✅ |
-| Port 443 SSL | ✅ | ❌ | ✅ |
+| port 443 WS + SSL | ✅ | ✅ | ✅ |
+| Port 443 SSL | ✅ | ✅ | ✅ |
 
 | Account | Vmess | Trojan | vless |
 | --- | --- | --- | --- |
