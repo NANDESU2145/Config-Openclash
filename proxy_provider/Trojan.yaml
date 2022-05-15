@@ -23,3 +23,11 @@ proxies:
   udp: true
   sni: v24.tiktokcdn.com
   skip-cert-verify: true
+- name: Biznet Trojan
+  type: trojan
+  server: id5.bukanvvip.my.id
+  port: 443
+  password: c5fda0a7-8b5c-45be-9cb8-552b68029af1
+  udp: true
+  sni: v24.tiktokcdn.com
+  skip-cert-verify: true
