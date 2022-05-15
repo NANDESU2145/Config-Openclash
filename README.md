@@ -14,26 +14,45 @@ Config ini Tersedia untuk clash Android dan clash untuk openwrt
 - Kegunaan untuk mengubah dan memperbarui config otomatis.
 
 ## Proxy Provider 
-| Open_Port | Vmess | vless | Trojan | SSH/SSL
+| Open_Port | Vmess | vless | Trojan | SSH/SSL |
 | --- | --- | --- | --- |
 | port 443 WS + SSL | ✅ | ✅ | ✅ | ✅ |
 | Port 443 SSL | ✅ | ✅ | ✅ | ✅ |
-| port 80 HTTP | ❌ | ❌ | ❌ | ✅ |
-
+ | port 80 HTTP | ✅ | ❌ | ✅ | ✅ |
 
 | Account | Vmess | Trojan | vless | SSH/SSL/WSS |
 | --- | --- | --- | --- | --- |
-| BIZNET | ✅ | ✅ | ✅ | ❌
-| SGDO | ✅ | ✅ | ❌ | 
-| JKT1 | ❌ | ✅ | ❌ | 
-| IKD1 | ❌ | ❌ | ❌ |
-| BTN1 | ❌ | ✅ | ❌ |
-| AZURE | ✅ |  |  |  |
-| ID APIK | 
-| LLC | 
-| RAJASA | 
-| AMS | 
-
+| BIZNET | ✅ | ✅ | ✅ | ✅ |
+| SGDO | ✅ | ✅ | ✅ | ✅ |
+| JKT1 | ❌ | ✅ | ❌ | ❌ |
+| IKD1 | ✅ | ✅ | ❌ | ❌ |
+| BTN1 | ❌ | ✅ | ❌ | ❌ |
+| AZURE | ✅ | ❌ | ❌ | ✅ |
+| ID APIK | ✅ | ✅ | ❌ | ✅ |
+| LLC | ✅ | ❌ | ❌ | ✅ |
+| RAJASA | ✅ | ❌ | ❌ | ❌ |
+| AMS | ✅ | ❌ | ❌ | ✅ |
+| SGGS | ✅ | ✅ | ✅ | ✅ |
+| AWS | ✅ | ✅ | ✅ | ✅ |
+| CONTABO | ❌ | ❌ | ❌ | ✅ |
+| OVH | ✅ | ✅ | ❌ | ❌ |
+| VULTR | ✅ | ❌ | ❌ | ❌ |
+| ITL | ❌ | ✅ | ❌ | ❌ |
+| HE | ❌ | ✅ | ❌ | ❌ |
+| M247 | ✅ | ❌ | ❌ | ❌ |
+| NUSA | ✅ | ❌ | ❌ | ✅ |
+| UNINET | ❌ | ❌ | ❌ | ✅ |
+| MMS | ❌ | ❌ | ❌ | ✅ |
+| INFINYS | ❌ | ❌ | ✅ | ✅ |
+| CTN | ✅ | ❌ | ❌ | ❌ |
+| ATHA | ❌ | ❌ | ❌ | ✅ |
+| SANGGORO | ✅ | ❌ | ❌ | ❌ |
+| LINK GO | ✅ | ❌ | ❌ | ❌ |
+| SINDO | ❌ | ❌ | ❌ | ✅ |
+| CYBER | ✅ | ❌ | ❌ | ✅ |
+| ARGON | ✅ | ❌ | ❌ | ❌ |
+| EXA | ✅ | ❌ | ❌ | ❌ |
+| GODADDY | ✅ | ❌ | ❌ | ❌ |
 
 ## Rules provider
 
