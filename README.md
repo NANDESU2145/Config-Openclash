@@ -14,18 +14,26 @@ Config ini Tersedia untuk clash Android dan clash untuk openwrt
 - Kegunaan untuk mengubah dan memperbarui config otomatis.
 
 ## Proxy Provider 
-| Proxy_Provider | Vmess | vless | Trojan |
+| Open_Port | Vmess | vless | Trojan | SSH/SSL
 | --- | --- | --- | --- |
-| port 443 WS + SSL | ✅ | ✅ | ✅ |
-| Port 443 SSL | ✅ | ✅ | ✅ |
+| port 443 WS + SSL | ✅ | ✅ | ✅ | ✅ |
+| Port 443 SSL | ✅ | ✅ | ✅ | ✅ |
+| port 80 HTTP | ❌ | ❌ | ❌ | ✅ |
 
-| Account | Vmess | Trojan | vless |
-| --- | --- | --- | --- |
-| BIZNET | ✅ | ❌ | ❌ |
-| SGDO | ❌ | ✅ | ❌ |
-| JKT1 | ❌ | ✅ | ❌ |
+
+| Account | Vmess | Trojan | vless | SSH/SSL/WSS |
+| --- | --- | --- | --- | --- |
+| BIZNET | ✅ | ✅ | ✅ | ❌
+| SGDO | ✅ | ✅ | ❌ | 
+| JKT1 | ❌ | ✅ | ❌ | 
 | IKD1 | ❌ | ❌ | ❌ |
 | BTN1 | ❌ | ✅ | ❌ |
+| AZURE | ✅ |  |  |  |
+| ID APIK | 
+| LLC | 
+| RAJASA | 
+| AMS | 
+
 
 ## Rules provider
 
