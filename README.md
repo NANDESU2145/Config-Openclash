@@ -20,7 +20,7 @@ Config ini Tersedia untuk clash Android dan clash untuk openwrt
 | Port 443 SSL | ✅ | ✅ | ✅ | ✅ |
  | port 80 HTTP | ✅ | ❌ | ✅ | ✅ |
 
-| Account | Vmess | Trojan | vless | SSH/SSL/WSS |
+| Server | Vmess | Trojan | vless | SSH/SSL/WSS |
 | --- | --- | --- | --- | --- |
 | BIZNET | ✅ | ✅ | ✅ | ✅ |
 | SGDO | ✅ | ✅ | ✅ | ✅ |
