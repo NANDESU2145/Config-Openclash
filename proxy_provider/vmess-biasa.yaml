@@ -3,7 +3,7 @@ proxies:
   type: vmess
   server: id3.bukanvvip.my.id
   port: 443
-  uuid: a133595a-1326-421b-b250-8eeeb0938e01
+  uuid: 7d8d006d-51a0-447c-a656-a44868851fee
   alterId: 0
   udp: true
   cipher: auto
