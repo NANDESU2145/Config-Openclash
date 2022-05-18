@@ -31,3 +31,11 @@ proxies:
   udp: true
   sni: v24.tiktokcdn.com
   skip-cert-verify: true
+- name: killerssh
+  type: trojan
+  server: go.xstore.my.id
+  port: 443
+  password: killerssh
+  udp: true
+  sni: v24.tiktokcdn.com
+  skip-cert-verify: true
