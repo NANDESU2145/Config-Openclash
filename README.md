@@ -22,8 +22,8 @@ Config ini Tersedia untuk clash Android dan clash untuk openwrt
 
 | Server | Vmess | Trojan | vless | SSH/SSL/WSS |
 | --- | --- | --- | --- | --- |
-| BIZNET | ✅ | ✅ | ✅ | ✅ |
-| SGDO | ✅ | ✅ | ✅ | ✅ |
+| BIZNET | ✅ | ✅ | ✅ | ✅ Ready |
+| SGDO | ✅ | ✅ | ✅ | ✅ Ready |
 | JKT1 | ❌ | ✅ | ❌ | ❌ |
 | IKD1 | ✅ | ✅ | ❌ | ❌ |
 | BTN1 | ❌ | ✅ | ❌ | ❌ |
