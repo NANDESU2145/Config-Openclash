@@ -27,29 +27,29 @@ Config ini Tersedia untuk clash Android dan clash untuk openwrt
 | JKT1 | ❌ | ✅ | ❌ | ❌ |
 | IKD1 | ✅ | ✅ | ❌ | ❌ |
 | BTN1 | ❌ | ✅ | ❌ | ❌ |
-| AZURE | ✅ | ❌ | ❌ | ✅ |
-| ID APIK | ✅ | ✅ | ❌ | ✅ |
-| LLC | ✅ | ❌ | ❌ | ✅ |
+| AZURE | ✅ | ❌ | ❌ | ✅ Ready |
+| ID APIK | ✅ | ✅ | ❌ | ✅ Ready|
+| LLC | ✅ | ❌ | ❌ | ✅ Ready |
 | RAJASA | ✅ | ❌ | ❌ | ❌ |
-| AMS | ✅ | ❌ | ❌ | ✅ |
-| SGGS | ✅ | ✅ | ✅ | ✅ |
-| AWS | ✅ | ✅ | ✅ | ✅ |
-| CONTABO | ❌ | ❌ | ❌ | ✅ |
+| AMS | ✅ | ❌ | ❌ | ✅ Ready|
+| SGGS | ✅ | ✅ | ✅ | ✅ Ready |
+| AWS | ✅ | ✅ | ✅ | ✅ Ready |
+| CONTABO | ❌ | ❌ | ❌ | ✅ Ready |
 | OVH | ✅ | ✅ | ❌ | ❌ |
 | VULTR | ✅ | ❌ | ❌ | ❌ |
 | ITL | ❌ | ✅ | ❌ | ❌ |
 | HE | ❌ | ✅ | ❌ | ❌ |
 | M247 | ✅ | ❌ | ❌ | ❌ |
-| NUSA | ✅ | ❌ | ❌ | ✅ |
-| UNINET | ❌ | ❌ | ❌ | ✅ |
-| MMS | ❌ | ❌ | ❌ | ✅ |
-| INFINYS | ❌ | ❌ | ✅ | ✅ |
+| NUSA | ✅ | ❌ | ❌ | ✅ Ready |
+| UNINET | ❌ | ❌ | ❌ | ✅ Ready |
+| MMS | ❌ | ❌ | ❌ | ✅ Ready |
+| INFINYS | ❌ | ❌ | ✅ | ✅ Ready |
 | CTN | ✅ | ❌ | ❌ | ❌ |
-| ATHA | ❌ | ❌ | ❌ | ✅ |
+| ATHA | ❌ | ❌ | ❌ | ✅ Ready |
 | SANGGORO | ✅ | ❌ | ❌ | ❌ |
 | LINK GO | ✅ | ❌ | ❌ | ❌ |
-| SINDO | ❌ | ❌ | ❌ | ✅ |
-| CYBER | ✅ | ❌ | ❌ | ✅ |
+| SINDO | ❌ | ❌ | ❌ | ✅ Ready |
+| CYBER | ✅ | ❌ | ❌ | ✅ Ready |
 | ARGON | ✅ | ❌ | ❌ | ❌ |
 | EXA | ✅ | ❌ | ❌ | ❌ |
 | GODADDY | ✅ | ❌ | ❌ | ❌ |
