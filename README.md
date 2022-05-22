@@ -24,7 +24,7 @@ Config ini Tersedia untuk clash Android dan clash untuk openwrt
 | --- | --- | --- | --- | --- |
 | BIZNET | ✅ | ✅ | ✅ | ✅ Ready |
 | SGDO | ✅ | ✅ | ✅ | ✅ Ready |
-| JKT1 | ❌ | ✅ | ❌ | ❌ |
+| JKT1 | ❌ | ✅ | ❌ Not Available | ❌ |
 | IKD1 | ✅ | ✅ | ❌ | ❌ |
 | BTN1 | ❌ | ✅ | ❌ | ❌ |
 | AZURE | ✅ | ❌ | ❌ | ✅ Ready |
