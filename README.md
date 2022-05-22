@@ -24,35 +24,35 @@ Config ini Tersedia untuk clash Android dan clash untuk openwrt
 | --- | --- | --- | --- | --- |
 | BIZNET | ✅ | ✅ | ✅ | ✅ Ready |
 | SGDO | ✅ | ✅ | ✅ | ✅ Ready |
-| JKT1 | ❌ | ✅ | ❌ Not Available | ❌ |
-| IKD1 | ✅ | ✅ | ❌ | ❌ |
-| BTN1 | ❌ | ✅ | ❌ | ❌ |
+| JKT1 | ❌ | ✅ | ❌ | ❌ Not Available |
+| IKD1 | ✅ | ✅ | ❌ | ❌ Not Available |
+| BTN1 | ❌ | ✅ | ❌ | ❌ Not Available |
 | AZURE | ✅ | ❌ | ❌ | ✅ Ready |
 | ID APIK | ✅ | ✅ | ❌ | ✅ Ready|
 | LLC | ✅ | ❌ | ❌ | ✅ Ready |
-| RAJASA | ✅ | ❌ | ❌ | ❌ |
+| RAJASA | ✅ | ❌ | ❌ | ❌ Not Available |
 | AMS | ✅ | ❌ | ❌ | ✅ Ready|
 | SGGS | ✅ | ✅ | ✅ | ✅ Ready |
 | AWS | ✅ | ✅ | ✅ | ✅ Ready |
 | CONTABO | ❌ | ❌ | ❌ | ✅ Ready |
-| OVH | ✅ | ✅ | ❌ | ❌ |
-| VULTR | ✅ | ❌ | ❌ | ❌ |
-| ITL | ❌ | ✅ | ❌ | ❌ |
-| HE | ❌ | ✅ | ❌ | ❌ |
-| M247 | ✅ | ❌ | ❌ | ❌ |
+| OVH | ✅ | ✅ | ❌ | ❌ Not Available |
+| VULTR | ✅ | ❌ | ❌ | ❌ Not Available |
+| ITL | ❌ | ✅ | ❌ | ❌ Not Available |
+| HE | ❌ | ✅ | ❌ | ❌ Not Available |
+| M247 | ✅ | ❌ | ❌ | ❌ Not Available |
 | NUSA | ✅ | ❌ | ❌ | ✅ Ready |
 | UNINET | ❌ | ❌ | ❌ | ✅ Ready |
 | MMS | ❌ | ❌ | ❌ | ✅ Ready |
 | INFINYS | ❌ | ❌ | ✅ | ✅ Ready |
-| CTN | ✅ | ❌ | ❌ | ❌ |
+| CTN | ✅ | ❌ | ❌ | ❌ Not Available |
 | ATHA | ❌ | ❌ | ❌ | ✅ Ready |
-| SANGGORO | ✅ | ❌ | ❌ | ❌ |
-| LINK GO | ✅ | ❌ | ❌ | ❌ |
+| SANGGORO | ✅ | ❌ | ❌ | ❌ Not Available |
+| LINK GO | ✅ | ❌ | ❌ | ❌ Not Available |
 | SINDO | ❌ | ❌ | ❌ | ✅ Ready |
 | CYBER | ✅ | ❌ | ❌ | ✅ Ready |
-| ARGON | ✅ | ❌ | ❌ | ❌ |
-| EXA | ✅ | ❌ | ❌ | ❌ |
-| GODADDY | ✅ | ❌ | ❌ | ❌ |
+| ARGON | ✅ | ❌ | ❌ | ❌ Not Available |
+| EXA | ✅ | ❌ | ❌ | ❌ Not Available |
+| GODADDY | ✅ | ❌ | ❌ | ❌ Not Available |
 
 ## Rules provider
 
