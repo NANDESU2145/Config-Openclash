@@ -127,6 +127,11 @@ proxy-groups:
   proxies:
     - DIRECT
     - 🔑Proxy
+- name: ✅Direct
+  type: select
+  proxies:
+    - DIRECT
+    - 🔑Proxy
 # ================= rule-providers==================
 rule-providers:
   Bokepmaster:
@@ -140,6 +145,12 @@ rule-providers:
     behavior: classical
     url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/rules_provider/Iklanmaster.yaml
     path: "./rule_provider/Iklanmaster.yaml"
+    interval: 86400
+  WhatsApp:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/rules_provider/WhatsApp.yaml
+    path: "./rule_provider/WhatsApp.yaml"
     interval: 86400
 # ================= RULES ==================
 rules:
@@ -228,7 +239,8 @@ rules:
 - IP-CIDR,104.16.0.0/12,🔑Proxy
 - IP-CIDR,172.64.0.0/13,🔑Proxy
 - IP-CIDR,131.0.72.0/22,🔑Proxy
-- GEOIP,GLOBAL
+- GEOIP,GLOBAL,🔑Proxy
 - RULE-SET,Bokepmaster,❌AdBlock
 - RULE-SET,Iklanmaster,❌AdBlock
+- RULE-SET,WhatsApp,✅Direct
 - MATCH,🔑Proxy
