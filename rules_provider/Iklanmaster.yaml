@@ -17782,7 +17782,6 @@ payload:
   - DOMAIN-SUFFIX,domainsponsor.com
   - DOMAIN-SUFFIX,dotomi.com
   - DOMAIN-SUFFIX,doubleclick.com
-  - DOMAIN-SUFFIX,doubleclick.net
   - DOMAIN-SUFFIX,dreamaquarium.com
   - DOMAIN-SUFFIX,dstillery.com
   - DOMAIN-SUFFIX,dt00.net
@@ -19530,7 +19529,6 @@ payload:
   - DOMAIN-SUFFIX,gigamega.su
   - DOMAIN-SUFFIX,go.mobstitial.com
   - DOMAIN-SUFFIX,go.mobstitialtag.com
-  - DOMAIN-SUFFIX,googleadservices.com
   - DOMAIN-SUFFIX,gsmtop.net
   - DOMAIN-SUFFIX,gts-ads.twistbox.com
   - DOMAIN-SUFFIX,heyzap.com
@@ -23625,7 +23623,7 @@ payload:
   - DOMAIN-SUFFIX,divehope.com
   - DOMAIN-SUFFIX,tutorthing.com
   - DOMAIN-SUFFIX,singroot.com
-  - DOMAIN-SUFFIX,rejectfairies.com
+  - DOMAIN-SUFFIXfairies.com
   - DOMAIN-SUFFIX,synthesizespoon.com
   - DOMAIN-SUFFIX,evaluateend.com
   - DOMAIN-SUFFIX,brushdaughter.com
@@ -25839,7 +25837,6 @@ payload:
   - DOMAIN-SUFFIX,etl.xlmc.sandai.net
   - DOMAIN-SUFFIX,events.lbesecapi.com
   - DOMAIN-SUFFIX,geoip.fotoable.net
-  - DOMAIN-SUFFIX,google-analytics.com
   - DOMAIN-SUFFIX,iam-agof-app.irquest.com
   - DOMAIN-SUFFIX,imp.apprevolve.com
   - DOMAIN-SUFFIX,installtracker.com
@@ -37363,7 +37360,6 @@ payload:
   - DOMAIN-SUFFIX,grp07.ias.rakuten.co.jp
   - DOMAIN-SUFFIX,cindyholbrook.lpages.co
   - DOMAIN-SUFFIX,pagead.l.doubleclick.net
-  - DOMAIN-SUFFIX,www.googleadservices.com
   - DOMAIN-SUFFIX,googleadapis.l.google.com
   - DOMAIN-SUFFIX,my.tealiumiq.com
   - DOMAIN-SUFFIX,artifactory.appodeal.com
@@ -41054,7 +41050,6 @@ payload:
   - DOMAIN-SUFFIX,go-mpulse.net
   - DOMAIN-SUFFIX,good.ta80.com
   - DOMAIN-SUFFIX,googlecommerce.com
-  - DOMAIN-SUFFIX,googlesyndication.com
   - DOMAIN-SUFFIX,goolpter.com
   - DOMAIN-SUFFIX,gopig.io
   - DOMAIN-SUFFIX,gorgon.youdao.com
@@ -46183,10 +46178,17 @@ payload:
   - DOMAIN-SUFFIX,ipstatp.com
   - DOMAIN-SUFFIX,muscdn.com
   - DOMAIN-SUFFIX,musical.ly
-  - DOMAIN-SUFFIX,ad.com
+  - DOMAIN-SUFFIX,ad.com1
   - DOMAIN,analytics.google.com
   - DOMAIN,analyticsinsights-pa.googleapis.com
   - DOMAIN,analyticsreporting.googleapis.com
-  - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-KEYWORD,analysis
   - DOMAIN,bit.ly
+# > Google
+  - DOMAIN-SUFFIX,googletagmanager.com
+  - DOMAIN-SUFFIX,doubleclick.net
+  - DOMAIN-SUFFIX,googleadservices.com
+  - DOMAIN-SUFFIX,googleadsserving.cn
+  - DOMAIN-SUFFIX,googlesyndication.com
+  - DOMAIN-SUFFIX,googletagservices.com
+  - DOMAIN-SUFFIX,google-analytics.com
