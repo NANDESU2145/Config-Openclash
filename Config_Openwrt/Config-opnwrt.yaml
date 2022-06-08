@@ -127,7 +127,7 @@ proxy-groups:
   proxies:
     - DIRECT
     - 🔑Proxy
-- name: ✅Direct
+- name: ⚡Direct
   type: select
   proxies:
     - DIRECT
@@ -242,5 +242,5 @@ rules:
 - GEOIP,GLOBAL,🔑Proxy
 - RULE-SET,Bokepmaster,❌AdBlock
 - RULE-SET,Iklanmaster,❌AdBlock
-- RULE-SET,WhatsApp,✅Direct
+- RULE-SET,WhatsApp,⚡Direct
 - MATCH,🔑Proxy
