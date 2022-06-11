@@ -1,0 +1,246 @@
+---
+redir-port: 7892
+tproxy-port: 7895
+port: 7890
+socks-port: 7891
+mixed-port: 7893
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 127.0.0.1:54194
+secret: aca07d43-3f9c-426c-9ee0-55269b3669a3
+bind-address: "*"
+external-ui: "/usr/share/openclash/dashboard"
+unified-delay: true
+ipv6: false
+profile:
+  store-selected: true
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:7874
+  enhanced-mode: redir-host
+  nameserver:
+    - dhcp://"eth0"
+    - 192.168.8.1
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.1.1.1:853#DNS
+    - tls://8.8.8.8:853#DNS
+    - https://dns.adguard.com/dns-query
+    - https://dns.google/dns-query
+    - tls://dns.google
+    - tls://dns.adguard.com
+  default-nameserver:
+    - 192.168.8.1
+    - 8.8.8.8
+    - 8.8.4.4
+    - 10.130.252.145
+    - 114.114.114.114
+    - 119.29.29.29
+  fallback:
+    - https://cloudflare-dns.com/dns-query
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    - https://dns.rubyfish.cn/dns-query
+# ================= proxy-providers ==================
+proxy-providers:
+  Vmess:
+    type: http
+    path: "./proxy_provider/vmess-biasa.yaml"
+    url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/proxy_provider/vmess-biasa.yaml
+    interval: 84600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+  Trojan:
+    type: http
+    path: "./proxy_provider/trojan.yaml"
+    url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/proxy_provider/Trojan.yaml
+    interval: 84600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+  Vless: 
+    type: http
+    path: "./proxy_provider/vless.yaml"
+    url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/proxy_provider/Vless.yaml
+    interval: 84600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+# ================= proxy-groups==================
+proxy-groups:
+- name: 🔑Proxy
+  type: select
+  proxies:
+    - Loadbalancing
+    - all-akun
+    - auto_select_ping_imut
+    - fallback-auto
+- name: Loadbalancing
+  type: load-balance
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - Vmess
+  - Trojan
+  - Vless
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+- name: all-akun
+  type: select
+  use:
+  - Vmess
+  - Trojan
+  - Vless
+- name: auto_select_ping_imut
+  type: url-test
+  use:
+  - Vmess
+  - Trojan
+  - Vless
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  lazy: true
+  disable-udp: false
+- name: fallback-auto
+  type: fallback
+  use: 
+  - Vmess
+  - Trojan
+  - Vless
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  lazy: true
+  disable-udp: false
+- name: ❌AdBlock
+  type: select
+  proxies:
+    - REJECT
+    - DIRECT
+- name: 🎮Games
+  type: select
+  proxies:
+    - DIRECT
+    - 🔑Proxy
+- name: ⚡Direct
+  type: select
+  proxies:
+    - DIRECT
+    - 🔑Proxy
+# ================= rule-providers==================
+rule-providers:
+  Bokepmaster:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/rules_provider/Bokepmaster.yaml
+    path: "./rule_provider/Bokepmaster.yaml"
+    interval: 86400
+  Iklanmaster:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/rules_provider/Iklanmaster.yaml
+    path: "./rule_provider/Iklanmaster.yaml"
+    interval: 86400
+  WhatsApp:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/rules_provider/WhatsApp.yaml
+    path: "./rule_provider/WhatsApp.yaml"
+    interval: 86400
+# ================= RULES ==================
+rules:
+- DOMAIN,mobile-legends.net,🎮Games
+- DOMAIN,face.yuanzhanapp.com,🎮Games
+- DOMAIN,wscdn.ml.youngjoygame.com,🎮Games
+- DOMAIN,akmstatic.ml.youngjoygame.com,🎮Games
+- DOMAIN-SUFFIX,mobilelegends.com,🎮Games
+- DOMAIN,ip.ml.youngjoygame.com,🎮Games
+- DOMAIN,android.bugly.qq.com,🎮Games
+- DOMAIN,youtubei.googleapis.com,🔑Proxy
+- DOMAIN-KEYWORD,announce,DIRECT,no-resolve
+- DOMAIN-KEYWORD,torrent,DIRECT,no-resolve
+- DOMAIN-KEYWORD,tracker,DIRECT,no-resolve
+- DOMAIN-SUFFIX,smtp,DIRECT,no-resolve
+- DOMAIN-SUFFIX,local,DIRECT,no-resolve
+- IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+- IP-CIDR,192.168.8.0/24,DIRECT,no-resolve
+- IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+- IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+- IP-CIDR6,::1/128,DIRECT,no-resolve
+- IP-CIDR6,fc00::/7,DIRECT,no-resolve
+- IP-CIDR6,fe80::/10,DIRECT,no-resolve
+- IP-CIDR6,fd00::/8,DIRECT,no-resolve
+- IP-CIDR,101.227.0.0/16,🔑Proxy
+- IP-CIDR,101.224.0.0/13,🔑Proxy
+- IP-CIDR,119.176.0.0/12,🔑Proxy
+- IP-CIDR,106.11.0.0/16,🔑Proxy
+- IP-CIDR,91.108.4.0/22,🔑Proxy,no-resolve
+- IP-CIDR,91.108.8.0/22,🔑Proxy,no-resolve
+- IP-CIDR,91.108.12.0/22,🔑Proxy,no-resolve
+- IP-CIDR,91.108.16.0/22,🔑Proxy,no-resolve
+- IP-CIDR,91.108.56.0/22,🔑Proxy,no-resolve
+- IP-CIDR,149.154.160.0/20,🔑Proxy,no-resolve
+- IP-CIDR,2001:b28:f23d::/48,🔑Proxy,no-resolve
+- IP-CIDR,2001:b28:f23f::/48,🔑Proxy,no-resolve
+- IP-CIDR,2001:67c:4e8::/48,🔑Proxy,no-resolve
+- IP-CIDR,35.190.247.0/24,🔑Proxy
+- IP-CIDR,64.233.160.0/19,🔑Proxy
+- IP-CIDR,66.102.0.0/20,🔑Proxy
+- IP-CIDR,66.249.80.0/20,🔑Proxy
+- IP-CIDR,72.14.192.0/18,🔑Proxy
+- IP-CIDR,74.125.0.0/16,🔑Proxy
+- IP-CIDR,108.177.8.0/21,🔑Proxy
+- IP-CIDR,172.217.0.0/16,🔑Proxy
+- IP-CIDR,173.194.0.0/16,🔑Proxy
+- IP-CIDR,209.85.128.0/17,🔑Proxy
+- IP-CIDR,216.58.192.0/19,🔑Proxy
+- IP-CIDR,216.239.32.0/19,🔑Proxy
+- IP-CIDR,31.13.24.0/21,🔑Proxy
+- IP-CIDR,31.13.64.0/18,🔑Proxy
+- IP-CIDR,45.64.40.0/22,🔑Proxy
+- IP-CIDR,66.220.144.0/20,🔑Proxy
+- IP-CIDR,69.63.176.0/20,🔑Proxy
+- IP-CIDR,69.171.224.0/19,🔑Proxy
+- IP-CIDR,74.119.76.0/22,🔑Proxy
+- IP-CIDR,103.4.96.0/22,🔑Proxy
+- IP-CIDR,129.134.0.0/17,🔑Proxy
+- IP-CIDR,157.240.0.0/17,🔑Proxy
+- IP-CIDR,173.252.64.0/19,🔑Proxy
+- IP-CIDR,173.252.96.0/19,🔑Proxy
+- IP-CIDR,179.60.192.0/22,🔑Proxy
+- IP-CIDR,185.60.216.0/22,🔑Proxy
+- IP-CIDR,204.15.20.0/22,🔑Proxy
+- IP-CIDR,69.195.160.0/19,🔑Proxy
+- IP-CIDR,104.244.42.0/21,🔑Proxy
+- IP-CIDR,192.133.76.0/22,🔑Proxy
+- IP-CIDR,199.16.156.0/22,🔑Proxy
+- IP-CIDR,199.59.148.0/22,🔑Proxy
+- IP-CIDR,199.96.56.0/21,🔑Proxy
+- IP-CIDR,202.160.128.0/22,🔑Proxy
+- IP-CIDR,209.237.192.0/19,🔑Proxy
+- IP-CIDR,173.245.48.0/20,🔑Proxy
+- IP-CIDR,103.21.244.0/22,🔑Proxy
+- IP-CIDR,103.22.200.0/22,🔑Proxy
+- IP-CIDR,103.31.4.0/22,🔑Proxy
+- IP-CIDR,141.101.64.0/18,🔑Proxy
+- IP-CIDR,108.162.192.0/18,🔑Proxy
+- IP-CIDR,190.93.240.0/20,🔑Proxy
+- IP-CIDR,188.114.96.0/20,🔑Proxy
+- IP-CIDR,197.234.240.0/22,🔑Proxy
+- IP-CIDR,198.41.128.0/17,🔑Proxy
+- IP-CIDR,162.158.0.0/15,🔑Proxy
+- IP-CIDR,104.16.0.0/12,🔑Proxy
+- IP-CIDR,172.64.0.0/13,🔑Proxy
+- IP-CIDR,131.0.72.0/22,🔑Proxy
+- GEOIP,GLOBAL,🔑Proxy
+- RULE-SET,Bokepmaster,❌AdBlock
+- RULE-SET,Iklanmaster,❌AdBlock
+- RULE-SET,WhatsApp,⚡Direct
+- MATCH,🔑Proxy
