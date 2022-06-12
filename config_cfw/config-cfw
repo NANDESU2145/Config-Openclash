@@ -3,15 +3,16 @@ redir-port: 7892
 tproxy-port: 7895
 port: 7890
 socks-port: 7891
-mixed-port: 7893
+mixed-port: 1080
 mode: rule
-log-level: silent
+log-level: error
 allow-lan: true
-external-controller: 127.0.0.1:54194
-secret: aca07d43-3f9c-426c-9ee0-55269b3669a3
+external-controller: 0.0.0.0:9090
+secret: 123456
 bind-address: "*"
 external-ui: "/usr/share/openclash/dashboard"
 unified-delay: true
+interface-name: WLAN
 ipv6: false
 profile:
   store-selected: true
@@ -19,6 +20,7 @@ dns:
   enable: true
   ipv6: false
   listen: 0.0.0.0:7874
+  #listen: 0.0.0.0:53
   enhanced-mode: redir-host
   nameserver:
     - dhcp://"eth0"
@@ -43,6 +45,13 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
     - https://dns.rubyfish.cn/dns-query
+tun:
+  enable: true
+  stack: gvisor
+  dns-hijack:
+    - 198.18.0.2:53
+  auto-route: true
+  auto-detect-interface: true
 # ================= proxy-providers ==================
 proxy-providers:
   Vmess:
