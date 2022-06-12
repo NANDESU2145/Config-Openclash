@@ -10,9 +10,8 @@ allow-lan: true
 external-controller: 0.0.0.0:9090
 secret: 123456
 bind-address: "*"
-external-ui: "/usr/share/openclash/dashboard"
 unified-delay: true
-interface-name: WLAN
+#interface-name: WLAN
 ipv6: false
 profile:
   store-selected: true
