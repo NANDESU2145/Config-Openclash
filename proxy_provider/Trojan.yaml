@@ -15,11 +15,11 @@ proxies:
   udp: true
   sni: v24.tiktokcdn.com
   skip-cert-verify: true
-- name: vpn10.tjvpn
+- name: trojan contabo
   type: trojan
-  server: vpn10.tjvpn.org
+  server: ctb.bukanvvip.my.id
   port: 443
-  password: 67a8ddb0-d9cf-11ec-b832-217f943883dc
+  password: 98e84a50-df49-4c82-a69c-44c270d4613d
   udp: true
   sni: v24.tiktokcdn.com
   skip-cert-verify: true
