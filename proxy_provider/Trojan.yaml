@@ -7,7 +7,7 @@ proxies:
   udp: true
   sni: v24.tiktokcdn.com
   skip-cert-verify: true
-- name: trojan contabo
+- name: Trojan Contabo
   type: trojan
   server: ctb.bukanvvip.my.id
   port: 443
