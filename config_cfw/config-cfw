@@ -65,7 +65,7 @@ proxy-providers:
       interval: 300
   Trojan:
     type: http
-    path: "./proxy_provider/trojan.yaml"
+    path: "./proxy_provider/Trojan.yaml"
     url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/proxy_provider/Trojan.yaml
     interval: 3600
     health-check:
@@ -74,7 +74,7 @@ proxy-providers:
       interval: 300
   Vless: 
     type: http
-    path: "./proxy_provider/vless.yaml"
+    path: "./proxy_provider/Vless.yaml"
     url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/proxy_provider/Vless.yaml
     interval: 3600
     health-check:
