@@ -1,9 +1,9 @@
 proxies:
 - name: vless trial 3day
-  server: cloud.hostserver.my.id
+  server: toretto.culoboyo-vpn.xyz
   port: 443
   type: vless
-  uuid: a1a92fbd-fb38-40fe-d33a-681325e2d41a
+  uuid: bb9d0797-0ccb-4188-9b18-4c960f7bc420
   cipher: auto
   tls: true
   skip-cert-verify: true
@@ -11,6 +11,6 @@ proxies:
   network: ws
   udp: true
   ws-opts:
-    path: /cloud
+    path: /vless
     headers:
       Host: v24.tiktokcdn.com
