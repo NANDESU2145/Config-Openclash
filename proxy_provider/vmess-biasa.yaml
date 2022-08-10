@@ -12,6 +12,6 @@ proxies:
   servername: v24.tiktokcdn.com
   network: ws
   ws-opts:
-    path: /v2ray
+    path: /vmess
     headers:
       Host: v24.tiktokcdn.com
