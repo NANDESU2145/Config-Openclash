@@ -17,9 +17,9 @@ proxies:
       Host: v24.tiktokcdn.com
 - name: trial
   type: vmess
-  server: cfid.rcvpn.net
+  server: toretto.culoboyo-vpn.xyz
   port: 443
-  uuid: f622ae12-681d-4a1d-8106-a86b7b9ac0e8
+  uuid: 6dea6b7a-ae4a-4d25-9600-351b311e6a01
   alterId: 0
   udp: true
   cipher: auto
