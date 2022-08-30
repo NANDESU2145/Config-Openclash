@@ -1,9 +1,9 @@
 proxies:
 - name: Biznet Trojan
   type: trojan
-  server: ikd.bukanvvip.my.id
+  server: nusa.bukanvvip.my.id
   port: 443
-  password: a10ad80f-0d8c-404d-abd1-5098ebef5aa1
+  password: 6405cf62-e292-466f-aa18-67ac7bef97f2
   udp: true
   sni: v24.tiktokcdn.com
   skip-cert-verify: true
