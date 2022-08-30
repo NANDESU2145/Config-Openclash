@@ -26,6 +26,6 @@ proxies:
   network: ws
   udp: true
   ws-opts:
-    path: /vless
+    path: /websocket
     headers:
       Host: v24.tiktokcdn.com
