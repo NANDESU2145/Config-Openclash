@@ -1,5 +1,5 @@
 proxies:
-- name: vless trial 3day
+- name: vless nusa
   server: toretto.culoboyo-vpn.xyz
   port: 443
   type: vless
