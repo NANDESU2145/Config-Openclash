@@ -14,3 +14,18 @@ proxies:
     path: /vless
     headers:
       Host: v24.tiktokcdn.com
+- name: vless nusa
+  server: nusa.bukanvvip.my.id
+  port: 443
+  type: vless
+  uuid: 6405cf62-e292-466f-aa18-67ac7bef97f2
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: v24.tiktokcdn.com
+  network: ws
+  udp: true
+  ws-opts:
+    path: /vless
+    headers:
+      Host: v24.tiktokcdn.com
