@@ -1,5 +1,5 @@
 proxies:
-- name: Biznet Trojan
+- name: nusa Trojan
   type: trojan
   server: nusa.bukanvvip.my.id
   port: 443
