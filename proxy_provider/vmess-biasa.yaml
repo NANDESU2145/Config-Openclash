@@ -1,9 +1,9 @@
 proxies:
 - name: trial
   type: vmess
-  server: toretto.culoboyo-vpn.xyz
+  server: nusa.bukanvvip.my.id
   port: 443
-  uuid: 6dea6b7a-ae4a-4d25-9600-351b311e6a01
+  uuid: 6405cf62-e292-466f-aa18-67ac7bef97f2
   alterId: 0
   udp: true
   cipher: auto
@@ -12,6 +12,6 @@ proxies:
   servername: v24.tiktokcdn.com
   network: ws
   ws-opts:
-    path: /vmess
+    path: /vmessws
     headers:
       Host: v24.tiktokcdn.com
