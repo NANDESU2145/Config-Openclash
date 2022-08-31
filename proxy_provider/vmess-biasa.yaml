@@ -9,12 +9,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: v24.tiktokcdn.com
+  servername: api.midtrans.com
   network: ws
   ws-opts:
     path: wss://api.midtrans.com/vmessws
     headers:
-      Host: v24.tiktokcdn.com
+      Host: nusa.bukanvvip.my.id
 - name: max vmess
   type: vmess
   server: 104.17.2.81
@@ -28,6 +28,6 @@ proxies:
   servername: sg-v.sshmax.xyz
   network: ws
   ws-opts:
-    path: wss://api.midtrans.com/vmessws
+    path: wss://api.midtrans.com/vmess
     headers:
       Host: sg-v.sshmax.xyz
