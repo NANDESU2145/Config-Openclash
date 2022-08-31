@@ -1,11 +1,11 @@
 proxies:
 - name: nusa Trojan
   type: trojan
-  server: nusa.bukanvvip.my.id
+  server: 104.17.2.81
   port: 443
   password: 6405cf62-e292-466f-aa18-67ac7bef97f2
   udp: true
-  sni: v24.tiktokcdn.com
+  sni: api.midtrans.com
   skip-cert-verify: true
   network: ws
   ws-opts:
