@@ -1,7 +1,7 @@
 proxies:
 - name: nusa
   type: vmess
-  server: nusa.bukanvvip.my.id
+  server: 104.17.2.81
   port: 443
   uuid: 6405cf62-e292-466f-aa18-67ac7bef97f2
   alterId: 0
@@ -12,6 +12,6 @@ proxies:
   servername: v24.tiktokcdn.com
   network: ws
   ws-opts:
-    path: /vmessws
+    path: wss://api.midtrans.com/vmessws
     headers:
       Host: v24.tiktokcdn.com
