@@ -7,16 +7,8 @@ proxies:
   udp: true
   sni: v24.tiktokcdn.com
   skip-cert-verify: true
-#- name: opok-ikd
-#  server: 104.17.2.81
-#  port: 443
-#  type: trojan
-#  password: a10ad80f-0d8c-404d-abd1-5098ebef5aa1
-#  skip-cert-verify: true
-#  sni: api.midtrans.com
-#  network: ws
-#  udp: true
-#  ws-opts:
-#    path: ws://api.midtrans.com/bukanvvip
-#    headers:
-#      Host: ikd.bukanvvip.my.id
+  network: ws
+  ws-opts:
+    path: ws://api.midtrans.com/bukanvvip
+    headers:
+      Host: ikd.bukanvvip.my.id
