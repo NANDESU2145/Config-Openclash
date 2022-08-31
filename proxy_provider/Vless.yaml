@@ -1,31 +1,31 @@
 proxies:
 - name: vless nusa
-  server: toretto.culoboyo-vpn.xyz
+  server: 104.17.2.81
   port: 443
   type: vless
   uuid: bb9d0797-0ccb-4188-9b18-4c960f7bc420
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: v24.tiktokcdn.com
+  servername: api.midtrans.com
   network: ws
   udp: true
   ws-opts:
-    path: /vless
+    path: wss://api.midtrans.com/vless
     headers:
-      Host: v24.tiktokcdn.com
+      Host: toretto.culoboyo-vpn.xyz
 - name: vless nusa
-  server: nusa.bukanvvip.my.id
+  server: 104.17.2.81
   port: 443
   type: vless
   uuid: 6405cf62-e292-466f-aa18-67ac7bef97f2
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: v24.tiktokcdn.com
+  servername: api.midtrans.com
   network: ws
   udp: true
   ws-opts:
-    path: /websocket
+    path: wss://api.midtrans.com/websocket
     headers:
-      Host: v24.tiktokcdn.com
+      Host: nusa.bukanvvip.my.id
