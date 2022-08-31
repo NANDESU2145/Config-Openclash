@@ -9,6 +9,6 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ws://api.midtrans.com/bukanvvip
+    path: ws://api.midtrans.com/trojanws
     headers:
-      Host: ikd.bukanvvip.my.id
+      Host: nusa.bukanvvip.my.id
