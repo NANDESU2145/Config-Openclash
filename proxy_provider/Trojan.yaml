@@ -1,14 +1,14 @@
 proxies:
 - name: nusa Trojan
   type: trojan
-  server: 104.17.2.81
+  server: 104.22.24.131
   port: 443
   password: 6405cf62-e292-466f-aa18-67ac7bef97f2
   udp: true
-  sni: api.midtrans.com
+  sni: sg2go.ipservers.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ws://api.midtrans.com/trojanws
+    path: /trojan
     headers:
       Host: nusa.bukanvvip.my.id
