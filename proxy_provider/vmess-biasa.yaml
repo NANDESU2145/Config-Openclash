@@ -15,19 +15,3 @@ proxies:
     path: wss://api.midtrans.com/vmessws
     headers:
       Host: nusa.bukanvvip.my.id
-- name: max vmess
-  type: vmess
-  server: 104.17.2.81
-  port: 443
-  uuid: a147f1b3-d0d4-4ca8-9ce9-38d3c24d7950
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: sg-v.sshmax.xyz
-  network: ws
-  ws-opts:
-    path: wss://api.midtrans.com/vmess
-    headers:
-      Host: sg-v.sshmax.xyz
