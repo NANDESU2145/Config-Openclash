@@ -1,31 +1,31 @@
 proxies:
 - name: vless nusa
-  server: 104.17.2.81
+  server: 104.22.24.131
   port: 443
   type: vless
   uuid: bb9d0797-0ccb-4188-9b18-4c960f7bc420
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api.midtrans.com
+  servername: nusa.bukanvvip.my.id
   network: ws
   udp: true
   ws-opts:
-    path: wss://api.midtrans.com/vless
+    path: wss://nusa.bukanvvip.my.id/vless
     headers:
       Host: toretto.culoboyo-vpn.xyz
 - name: vless nusa
-  server: 104.17.2.81
+  server: 104.22.24.131
   port: 443
   type: vless
   uuid: 6405cf62-e292-466f-aa18-67ac7bef97f2
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api.midtrans.com
+  servername: nusa.bukanvvip.my.id
   network: ws
   udp: true
   ws-opts:
-    path: wss://api.midtrans.com/websocket
+    path: wss://nusa.bukanvvip.my.id/websocket
     headers:
       Host: nusa.bukanvvip.my.id
