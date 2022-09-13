@@ -1,7 +1,7 @@
 proxies:
 - name: nusa
   type: vmess
-  server: 104.17.2.81
+  server: 104.22.24.131
   port: 443
   uuid: 6405cf62-e292-466f-aa18-67ac7bef97f2
   alterId: 0
@@ -9,9 +9,9 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api.midtrans.com
+  servername: nusa.bukanvvip.my.id
   network: ws
   ws-opts:
-    path: wss://api.midtrans.com/vmessws
+    path: wss://nusa.bukanvvip.my.id/vmessws
     headers:
       Host: nusa.bukanvvip.my.id
