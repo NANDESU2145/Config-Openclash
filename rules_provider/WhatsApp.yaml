@@ -38,7 +38,6 @@ payload:
   - DOMAIN-SUFFIX,whatsapp.net
   - DOMAIN-SUFFIX,whatsapp.biz
   - DOMAIN-SUFFIX,g.whatsapp.net
-  - DOMAIN-SUFFIX,v.whatsapp.net
   - DOMAIN-SUFFIX,snr.whatsapp.net
 #wa ip
   - IP-CIDR,31.13.64.0/24  
