@@ -255,5 +255,5 @@ rules:
 - GEOIP,GLOBAL,🔑Proxy
 - RULE-SET,Bokepmaster,❌AdBlock
 - RULE-SET,Iklanmaster,❌AdBlock
-- RULE-SET,WhatsApp,⚡Direct
+- RULE-SET,WhatsApp,🔑Proxy
 - MATCH,🔑Proxy
