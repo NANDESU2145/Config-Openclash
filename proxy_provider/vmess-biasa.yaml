@@ -28,6 +28,6 @@ proxies:
   servername: haickall.139.my.id
   network: ws
   ws-opts:
-    path: wss://haickall.139.my.id/vmess
+    path: /vmess
     headers:
       Host: haickall.139.my.id
