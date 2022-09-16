@@ -12,16 +12,3 @@ proxies:
     path: /trojanws
     headers:
       Host: nusa.bukanvvip.my.id
-- name: SG Trojan
-  type: trojan
-  server: 104.22.24.131
-  port: 443
-  password: jagoanssh-Tresss
-  udp: true
-  sni: sg2go.ipservers.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg2go.ipservers.xyz
