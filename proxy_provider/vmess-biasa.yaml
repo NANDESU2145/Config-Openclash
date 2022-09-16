@@ -15,7 +15,7 @@ proxies:
     path: wss://nusa.bukanvvip.my.id/vmessws
     headers:
       Host: nusa.bukanvvip.my.id
-  name: nusa
+  name: trial
   type: vmess
   server: 104.22.24.131
   port: 443
