@@ -1,36 +1,20 @@
 proxies:
-- name: nusa
-  type: vmess
-  server: 104.22.24.131
-  port: 443
-  uuid: 6405cf62-e292-466f-aa18-67ac7bef97f2
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: nusa.bukanvvip.my.id
-  network: ws
-  ws-opts:
-    path: wss://nusa.bukanvvip.my.id/vmessws
-    headers:
-      Host: nusa.bukanvvip.my.id
-- name: trial
-  type: vmess
-  server: 104.22.24.131
-  port: 443
-  uuid: acddc423-1d8c-45fa-a4e6-8a5d64a5832d
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: haickall.139.my.id
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: haickall.139.my.id
+# - name: nusa
+#   type: vmess
+#   server: 104.22.24.131
+#   port: 443
+#   uuid: 6405cf62-e292-466f-aa18-67ac7bef97f2
+#   alterId: 0
+#   udp: true
+#   cipher: auto
+#   tls: true
+#   skip-cert-verify: true
+#   servername: nusa.bukanvvip.my.id
+#   network: ws
+#   ws-opts:
+#     path: wss://nusa.bukanvvip.my.id/vmessws
+#     headers:
+#       Host: nusa.bukanvvip.my.id
 - name: vmess max
   type: vmess
   server: 104.18.2.2
@@ -47,3 +31,19 @@ proxies:
     path: wss://gw.ruangguru.com/vmess
     headers:
       Host: id-v.sshmax.xyz
+name: opok
+  type: vmess
+  server: 104.17.78.107
+  port: 443
+  uuid: 7c26192e-5ce4-426a-821a-6a95a9d48a8a
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: skul.id
+  network: ws
+  ws-opts:
+    path: wss://skul.id/vmess
+    headers:
+      Host: sgmws.mainssh.xyz
