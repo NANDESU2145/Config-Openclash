@@ -1,20 +1,20 @@
 proxies:
-# - name: nusa
-#   type: vmess
-#   server: 104.22.24.131
-#   port: 443
-#   uuid: 6405cf62-e292-466f-aa18-67ac7bef97f2
-#   alterId: 0
-#   udp: true
-#   cipher: auto
-#   tls: true
-#   skip-cert-verify: true
-#   servername: nusa.bukanvvip.my.id
-#   network: ws
-#   ws-opts:
-#     path: wss://nusa.bukanvvip.my.id/vmessws
-#     headers:
-#       Host: nusa.bukanvvip.my.id
+- name: trial
+  type: vmess
+  server: 104.22.24.131
+  port: 443
+  uuid: acddc423-1d8c-45fa-a4e6-8a5d64a5832d
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: haickall.139.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: haickall.139.my.id
 - name: vmess max
   type: vmess
   server: 104.18.2.2
