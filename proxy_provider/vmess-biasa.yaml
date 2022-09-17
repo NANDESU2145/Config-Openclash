@@ -31,7 +31,7 @@ proxies:
     path: wss://gw.ruangguru.com/vmess
     headers:
       Host: id-v.sshmax.xyz
-name: opok
+- name: opok
   type: vmess
   server: 104.17.78.107
   port: 443
