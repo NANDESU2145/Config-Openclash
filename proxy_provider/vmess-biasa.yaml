@@ -33,7 +33,7 @@ proxies:
       Host: id-v.sshmax.xyz
 - name: opok
   type: vmess
-  server: 104.17.78.107
+  server: 104.18.2.2
   port: 443
   uuid: 7c26192e-5ce4-426a-821a-6a95a9d48a8a
   alterId: 0
@@ -41,9 +41,9 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: skul.id
+  servername: gw.ruangguru.com
   network: ws
   ws-opts:
-    path: wss://skul.id/vmess
+    path: wss://gw.ruangguru.com/vmess
     headers:
       Host: sgmws.mainssh.xyz
