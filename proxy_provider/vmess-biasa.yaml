@@ -1,23 +1,7 @@
 proxies:
-- name: trial
-  type: vmess
-  server: 162.159.128.7
-  port: 443
-  uuid: acddc423-1d8c-45fa-a4e6-8a5d64a5832d
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: haickall.139.my.id
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: haickall.139.my.id
 - name: vmess max
   type: vmess
-  server: 162.159.128.7
+  server: 104.21.8.121
   port: 443
   uuid: 80ff8d49-7984-40cd-8766-fd90abab88d2
   alterId: 0
@@ -25,10 +9,10 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: zendesk1.appsflyer.com
+  servername: beacon.liveon.id
   network: ws
   ws-opts:
-    path: wss://zendesk1.appsflyer.com/vmess
+    path: wss://beacon.liveon.id/vmess
     headers:
       Host: id-v.sshmax.xyz
 - name: opok liveon
