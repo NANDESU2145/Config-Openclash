@@ -1,14 +1,14 @@
-# proxies:
-# - name: ID Trojan
-#   type: trojan
-#   server: 104.22.24.131
-#   port: 443
-#   password: 6405cf62-e292-466f-aa18-67ac7bef97f2
-#   udp: true
-#   sni: nusa.bukanvvip.my.id
-#   skip-cert-verify: true
-#   network: ws
-#   ws-opts:
-#     path: /trojanws
-#     headers:
-#       Host: nusa.bukanvvip.my.id
+proxies:
+- name: ID Trojan
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 
+  udp: true
+  sni: beacon.liveon.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: wfzure.vpn-ku.my.id
