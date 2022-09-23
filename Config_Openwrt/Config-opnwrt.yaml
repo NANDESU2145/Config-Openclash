@@ -86,7 +86,7 @@ proxy-groups:
   strategy: round-robin
   disable-udp: false
   use:
-  - Vmess
+  #- Vmess
   - Trojan
   # - Vless
   url: http://www.gstatic.com/generate_204
@@ -94,13 +94,13 @@ proxy-groups:
 - name: all-akun
   type: select
   use:
-  - Vmess
+  #- Vmess
   - Trojan
   # - Vless
 - name: auto_select_ping_imut
   type: url-test
   use:
-  - Vmess
+  #- Vmess
   - Trojan
   # - Vless
   url: http://www.gstatic.com/generate_204
@@ -110,7 +110,7 @@ proxy-groups:
 - name: fallback-auto
   type: fallback
   use: 
-  - Vmess
+  #- Vmess
   - Trojan
   # - Vless
   url: http://www.gstatic.com/generate_204
