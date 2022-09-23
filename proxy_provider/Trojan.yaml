@@ -13,7 +13,7 @@ proxies:
     headers:
       Host: ikd.bukanvvip.my.id
 - name: id trojan
-  type: vmess
+  type: trojan
   server: 104.21.8.121
   port: 443
   password: 73c08127-ff6a-4e6c-857b-aa9a90464dd6
