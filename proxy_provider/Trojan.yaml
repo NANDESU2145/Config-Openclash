@@ -25,3 +25,16 @@ proxies:
     path: wss://ikd.bukanvvip.my.id/bukanvvip
     headers:
       Host: ikd.bukanvvip.my.id
+- name: IKD
+  server: zendesk1.appsflyer.com
+  port: 443
+  type: trojan
+  password: 93f6501a-eaf0-42e6-8298-749fbe2
+  network: ws
+  sni: ikd.bukanvvip.my.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /bukanvvip
+  headers:
+    Host: ikd.bukanvvip.my.id
