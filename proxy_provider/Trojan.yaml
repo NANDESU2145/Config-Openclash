@@ -12,7 +12,7 @@ proxies:
     path: wss://beacon.liveon.id/bukanvvip
     headers:
       Host: ikd.bukanvvip.my.id
-- name: ID Trojan 2
+- name: ID Trojanasix
   type: trojan
   server: 104.21.8.121
   port: 443
