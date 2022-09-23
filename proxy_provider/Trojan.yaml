@@ -31,10 +31,10 @@ proxies:
   type: trojan
   password: 73c08127-ff6a-4e6c-857b-aa9a90464dd6
   network: ws
-  sni: ikd.bukanvvip.my.id
+  sni: zendesk1.appsflyer.com
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: wss://ikd.bukanvvip.my.id/bukanvvip
+    path: wss://zendesk1.appsflyer.com.my.id/bukanvvip
   headers:
     Host: ikd.bukanvvip.my.id
