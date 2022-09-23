@@ -35,6 +35,6 @@ proxies:
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: wss://zendesk1.appsflyer.com/bukanvvip
-  headers:
+    path: wss://zendesk1.appsflybukanvvipheaders
+    headers:
     Host: ikd.bukanvvip.my.id
