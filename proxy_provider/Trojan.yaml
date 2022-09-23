@@ -16,7 +16,7 @@ proxies:
   server: 162.159.128.7
   port: 443
   type: trojan
-  password: 93f6501a-eaf0-42e6-8298-749fbe2
+  password: 73c08127-ff6a-4e6c-857b-aa9a90464dd6
   network: ws
   sni: zendesk1.appsflyer.com
   skip-cert-verify: true
