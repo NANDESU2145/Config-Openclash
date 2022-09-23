@@ -15,19 +15,3 @@ proxies:
     path: wss://beacon.liveon.id/vmess
     headers:
       Host: id-v.sshmax.xyz
-- name: opok liveon
-  type: vmess
-  server: 104.21.8.121
-  port: 443
-  uuid: 7c26192e-5ce4-426a-821a-6a95a9d48a8a
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: beacon.liveon.id
-  network: ws
-  ws-opts:
-    path: wss://beacon.liveon.id/vmess
-    headers:
-      Host: sgmws.mainssh.xyz
