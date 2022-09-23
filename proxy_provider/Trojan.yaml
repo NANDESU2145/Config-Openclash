@@ -24,6 +24,6 @@ proxies:
   servername: beacon.liveon.id
   network: ws
   ws-opts:
-    path: wss://beacon.liveon.id/vmess
+    path: wss://beacon.liveon.id/bukanvvip
     headers:
       Host: ikd.bukanvvip.my.id
