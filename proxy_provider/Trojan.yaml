@@ -35,6 +35,6 @@ proxies:
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: /bukanvvip
+    path: wss://ikd.bukanvvip.my.id/bukanvvip
   headers:
     Host: ikd.bukanvvip.my.id
