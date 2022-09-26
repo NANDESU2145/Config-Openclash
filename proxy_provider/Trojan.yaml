@@ -3,38 +3,38 @@ proxies:
   type: trojan
   server: 104.21.8.121
   port: 443
-  password: 73c08127-ff6a-4e6c-857b-aa9a90464dd6
+  password: 7ccaf4ca-8a8c-4094-ad81-18930c1bd2ad
   udp: true
   sni: beacon.liveon.id
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: wss://beacon.liveon.id/bukanvvip
+    path: wss://beacon.liveon.id/bukanvvipTJ
     headers:
       Host: ikd.bukanvvip.my.id
 - name: IKD
   server: 162.159.128.7
   port: 443
   type: trojan
-  password: 73c08127-ff6a-4e6c-857b-aa9a90464dd6
+  password: 7ccaf4ca-8a8c-4094-ad81-18930c1bd2ad
   network: ws
   sni: zendesk1.appsflyer.com
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: wss://zendesk1.appsflyer.com/bukanvvip
+    path: wss://zendesk1.appsflyer.com/bukanvvipTJ
     headers:
       Host: ikd.bukanvvip.my.id
 - name: okay
   server: zendesk1.appsflyer.com
   port: 443
   type: trojan
-  password: 73c08127-ff6a-4e6c-857b-aa9a90464dd6
+  password: 7ccaf4ca-8a8c-4094-ad81-18930c1bd2ad
   network: ws
   sni: ikd.bukanvvip.my.id
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: /bukanvvip
+    path: /bukanvvipTJ
   headers:
     Host: ikd.bukanvvip.my.id
