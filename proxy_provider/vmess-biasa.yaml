@@ -15,3 +15,35 @@ proxies:
     path: wss://beacon.liveon.id/bukanvvipvws
     headers:
       Host: ikd.bukanvvip.my.id
+- name: ikdd
+  type: vmess
+  server: 172.67.139.111
+  port: 443
+  uuid: de1c9c64-0135-4162-8643-d6a45c01f400
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: beacon.liveon.id
+  network: ws
+  ws-opts:
+    path: wss://beacon.liveon.id/bukanvvipvws
+    headers:
+      Host: ikd.bukanvvip.my.id
+- name: ikddd
+  type: vmess
+  server: 162.159.128.7
+  port: 443
+  uuid: de1c9c64-0135-4162-8643-d6a45c01f400
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: zendesk1.appsflyer.com
+  network: ws
+  ws-opts:
+    path: wss://zendesk1.appsflyer.com/bukanvvipvws
+    headers:
+      Host: ikd.bukanvvip.my.id
