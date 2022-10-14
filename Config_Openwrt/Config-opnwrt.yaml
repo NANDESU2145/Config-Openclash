@@ -45,15 +45,15 @@ dns:
     - https://dns.rubyfish.cn/dns-query
 # ================= proxy-providers ==================
 proxy-providers:
-  # Vmess:
-  #   type: http
-  #   path: "./proxy_provider/vmess-biasa.yaml"
-  #   url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/proxy_provider/vmess-biasa.yaml
-  #   interval: 3600
-  #   health-check:
-  #     enable: true
-  #     url: http://www.gstatic.com/generate_204
-  #     interval: 300
+  Vmess:
+    type: http
+    path: "./proxy_provider/vmess-biasa.yaml"
+    url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/proxy_provider/vmess-biasa.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
   Trojan:
     type: http
     path: "./proxy_provider/trojan.yaml"
@@ -86,7 +86,7 @@ proxy-groups:
   strategy: round-robin
   disable-udp: false
   use:
-  #- Vmess
+  - Vmess
   - Trojan
   # - Vless
   url: http://www.gstatic.com/generate_204
@@ -94,13 +94,13 @@ proxy-groups:
 - name: all-akun
   type: select
   use:
-  #- Vmess
+  - Vmess
   - Trojan
   # - Vless
 - name: auto_select_ping_imut
   type: url-test
   use:
-  #- Vmess
+  - Vmess
   - Trojan
   # - Vless
   url: http://www.gstatic.com/generate_204
@@ -110,7 +110,7 @@ proxy-groups:
 - name: fallback-auto
   type: fallback
   use: 
-  #- Vmess
+  - Vmess
   - Trojan
   # - Vless
   url: http://www.gstatic.com/generate_204
