@@ -1,9 +1,9 @@
 proxies:
-- name: vmess max
+- name: ikd
   type: vmess
   server: 104.21.8.121
   port: 443
-  uuid: 80ff8d49-7984-40cd-8766-fd90abab88d2
+  uuid: de1c9c64-0135-4162-8643-d6a45c01f400
   alterId: 0
   udp: true
   cipher: auto
@@ -12,6 +12,6 @@ proxies:
   servername: beacon.liveon.id
   network: ws
   ws-opts:
-    path: wss://beacon.liveon.id/vmess
+    path: wss://beacon.liveon.id/bukanvvipvws
     headers:
-      Host: id-v.sshmax.xyz
+      Host: ikd.bukanvvip.my.id
