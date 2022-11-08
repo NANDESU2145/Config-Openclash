@@ -47,3 +47,19 @@ proxies:
     path: wss://zendesk1.appsflyer.com/bukanvvipvws
     headers:
       Host: ikd.bukanvvip.my.id
+- name: streaming
+  type: vmess
+  server: investors.spotify.com
+  port: 443
+  uuid: de1c9c64-0135-4162-8643-d6a45c01f400
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: investors.spotify.com
+  network: ws
+  ws-opts:
+    path: wss://investors.spotify.com/bukanvvipvws
+    headers:
+      Host: ikd.bukanvvip.my.id
