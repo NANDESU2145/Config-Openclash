@@ -3,7 +3,7 @@ proxies:
   type: vmess
   server: 104.21.8.121
   port: 443
-  uuid: de1c9c64-0135-4162-8643-d6a45c01f400
+  uuid: 205671d0-ab39-4dc4-8836-acae0c63dae7
   alterId: 0
   udp: true
   cipher: auto
@@ -19,7 +19,7 @@ proxies:
   type: vmess
   server: 172.67.139.111
   port: 443
-  uuid: de1c9c64-0135-4162-8643-d6a45c01f400
+  uuid: 205671d0-ab39-4dc4-8836-acae0c63dae7
   alterId: 0
   udp: true
   cipher: auto
@@ -35,7 +35,7 @@ proxies:
   type: vmess
   server: 162.159.128.7
   port: 443
-  uuid: de1c9c64-0135-4162-8643-d6a45c01f400
+  uuid: 205671d0-ab39-4dc4-8836-acae0c63dae7
   alterId: 0
   udp: true
   cipher: auto
@@ -51,7 +51,7 @@ proxies:
   #type: vmess
   #server: investors.spotify.com
   #port: 443
-  #uuid: de1c9c64-0135-4162-8643-d6a45c01f400
+  #uuid: 
   #alterId: 0
   #udp: true
   #cipher: auto
