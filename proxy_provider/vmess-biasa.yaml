@@ -79,3 +79,19 @@ proxies:
     path: "/worryfree/?u\u003dgarasken123\u0026p\u003d6385ba78d4de2"
     headers:
       Host: tsel.me
+- name: ilped
+  type: vmess
+  server: 104.17.2.81
+  port: 443
+  uuid: 6fa6f7f6-9505-4543-a163-71775824c80b
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: wss://ruangguru.com/worryfree
+    headers:
+      Host: v2ray1.udpgw.com
