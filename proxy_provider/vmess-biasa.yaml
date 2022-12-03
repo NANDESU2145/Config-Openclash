@@ -1,53 +1,53 @@
 proxies:
-- name: ikd
-  type: vmess
-  server: 104.21.8.121
-  port: 443
-  uuid: 205671d0-ab39-4dc4-8836-acae0c63dae7
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: beacon.liveon.id
-  network: ws
-  ws-opts:
-    path: wss://beacon.liveon.id/bukanvvipvws
-    headers:
-      Host: ikd.bukanvvip.my.id
-- name: ikdd
-  type: vmess
-  server: 172.67.139.111
-  port: 443
-  uuid: 205671d0-ab39-4dc4-8836-acae0c63dae7
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: beacon.liveon.id
-  network: ws
-  ws-opts:
-    path: wss://beacon.liveon.id/bukanvvipvws
-    headers:
-      Host: ikd.bukanvvip.my.id
-- name: ikddd
-  type: vmess
-  server: 162.159.128.7
-  port: 443
-  uuid: 205671d0-ab39-4dc4-8836-acae0c63dae7
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: zendesk1.appsflyer.com
-  network: ws
-  ws-opts:
-    path: wss://zendesk1.appsflyer.com/bukanvvipvws
-    headers:
-      Host: ikd.bukanvvip.my.id
-#- #name: streaming
+#- name: ikd
+  #type: vmess
+  #server: 104.21.8.121
+  #port: 443
+  #uuid: 205671d0-ab39-4dc4-8836-acae0c63dae7
+  #alterId: 0
+  #udp: true
+  #cipher: auto
+  #tls: true
+  #skip-cert-verify: true
+  #servername: beacon.liveon.id
+  #network: ws
+  #ws-opts:
+    #path: wss://beacon.liveon.id/bukanvvipvws
+    #headers:
+      #Host: ikd.bukanvvip.my.id
+#- name: ikdd
+  #type: vmess
+  #server: 172.67.139.111
+  #port: 443
+  #uuid: 205671d0-ab39-4dc4-8836-acae0c63dae7
+  #alterId: 0
+  #udp: true
+  #cipher: auto
+  #tls: true
+  #skip-cert-verify: true
+  #servername: beacon.liveon.id
+  #network: ws
+  #ws-opts:
+    #path: wss://beacon.liveon.id/bukanvvipvws
+    #headers:
+      #Host: ikd.bukanvvip.my.id
+#- name: ikddd
+  #type: vmess
+  #server: 162.159.128.7
+  #port: 443
+  #uuid: 205671d0-ab39-4dc4-8836-acae0c63dae7
+  #alterId: 0
+  #udp: true
+  #cipher: auto
+  #tls: true
+  #skip-cert-verify: true
+  #servername: zendesk1.appsflyer.com
+  #network: ws
+  #ws-opts:
+    #path: wss://zendesk1.appsflyer.com/bukanvvipvws
+    #headers:
+      #Host: ikd.bukanvvip.my.id
+#- name: streaming
   #type: vmess
   #server: investors.spotify.com
   #port: 443
@@ -63,3 +63,19 @@ proxies:
     #path: wss://investors.spotify.com/bukanvvipvws
     #headers:
       #Host: ikd.bukanvvip.my.id
+- name: opok
+  type: vmess
+  server: id1-temp.v2-ray.com
+  port: 80
+  uuid: afef92d5-b5b9-46aa-a982-3914fe62c1c5
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: tsel.me
+  network: ws
+  ws-opts:
+    path: "/worryfree/?u\u003dgarasken123\u0026p\u003d6385ba78d4de2"
+    headers:
+      Host: tsel.me
