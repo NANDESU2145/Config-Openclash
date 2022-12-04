@@ -76,7 +76,7 @@ proxies:
   servername: tsel.me
   network: ws
   ws-opts:
-    path: "/worryfree/?u\u003dgarasken123\u0026p\u003d6385ba78d4de2"
+    path: /worryfree/?u\u003dgarasken123\u0026p\u003d6385ba78d4de2
     headers:
       Host: tsel.me
 - name: ilped
