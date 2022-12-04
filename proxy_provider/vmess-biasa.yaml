@@ -95,3 +95,19 @@ proxies:
     path: wss://ruangguru.com/worryfree
     headers:
       Host: v2ray1.udpgw.com
+- name: ilped1
+  type: vmess
+  server: 139.99.79.140
+  port: 80
+  uuid: 20646825-531e-4578-bdfc-dc4bdffb8d72
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: tsel.me
