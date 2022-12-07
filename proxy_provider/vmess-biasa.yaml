@@ -81,7 +81,7 @@ proxies:
       Host: tsel.me
 - name: ilped
   type: vmess
-  server: 104.17.2.81
+  server: 104.18.25.139
   port: 443
   uuid: 6fa6f7f6-9505-4543-a163-71775824c80b
   alterId: 0
