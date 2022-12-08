@@ -1,27 +1,40 @@
 proxies:
-- name: ID Trojan
+# - name: ID Trojan
+#   type: trojan
+#   server: 104.21.8.121
+#   port: 443
+#   password: 73c08127-ff6a-4e6c-857b-aa9a90464dd6
+#   udp: true
+#   sni: beacon.liveon.id
+#   skip-cert-verify: true
+#   network: ws
+#   ws-opts:
+#     path: wss://beacon.liveon.id/bukanvvip
+#     headers:
+#       Host: ikd.bukanvvip.my.id
+# - name: IKD
+#   server: 162.159.128.7
+#   port: 443
+#   type: trojan
+#   password: 73c08127-ff6a-4e6c-857b-aa9a90464dd6
+#   network: ws
+#   sni: zendesk1.appsflyer.com
+#   skip-cert-verify: true
+#   udp: true
+#   ws-opts:
+#     path: wss://zendesk1.appsflyer.com/bukanvvip
+#     headers:
+#       Host: ikd.bukanvvip.my.id
+- name: opoktsel
+  server: 13.213.177.241
+  port: 80
   type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: 73c08127-ff6a-4e6c-857b-aa9a90464dd6
-  udp: true
-  sni: beacon.liveon.id
-  skip-cert-verify: true
+  password: akunbaru
   network: ws
-  ws-opts:
-    path: wss://beacon.liveon.id/bukanvvip
-    headers:
-      Host: ikd.bukanvvip.my.id
-- name: IKD
-  server: 162.159.128.7
-  port: 443
-  type: trojan
-  password: 73c08127-ff6a-4e6c-857b-aa9a90464dd6
-  network: ws
-  sni: zendesk1.appsflyer.com
+  sni: tsel.me
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: wss://zendesk1.appsflyer.com/bukanvvip
+    path: /worryfree?type\u003dxray-trojan-ws-tls
     headers:
-      Host: ikd.bukanvvip.my.id
+      Host: tsel.me
