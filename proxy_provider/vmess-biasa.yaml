@@ -73,7 +73,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-  servername: tsel.me
+  servername: ruangguru.com
   network: ws
   ws-opts:
     path: /worryfree/?u\u003dgarasken123\u0026p\u003d6385ba78d4de2
@@ -92,25 +92,9 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: wss://ruangguru.com/worryfree
-    headers:
-      Host: v2ray1.udpgw.com
-- name: ilped1
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: 20646825-531e-4578-bdfc-dc4bdffb8d72
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
     path: /worryfree
     headers:
-      Host: tsel.me
+      Host: v2ray1.udpgw.com
 - name: ilpedtseltes
   type: vmess
   server: 104.22.24.131
@@ -143,19 +127,3 @@ proxies:
     path: /worryfree
     headers:
       Host: worry.free.slowssh.my.id
-- name: ilpedtelkomsel
-  type: vmess
-  server: 104.18.25.131
-  port: 80
-  uuid: 6db2d009-e4d8-40d3-8b39-5d2ae683dfb8
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: www.skillacademy.com
-  network: ws
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: sg2ray.xrayjrt.me
