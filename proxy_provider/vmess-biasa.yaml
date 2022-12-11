@@ -145,7 +145,7 @@ proxies:
       Host: worry.free.slowssh.my.id
 - name: ilpedtelkomsel
   type: vmess
-  server: 104.22.24.131
+  server: 104.18.25.139
   port: 80
   uuid: 6db2d009-e4d8-40d3-8b39-5d2ae683dfb8
   alterId: 0
@@ -153,7 +153,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: udemy.com
+  servername: www.skillacademy.com
   network: ws
   ws-opts:
     path: /worryfree
