@@ -65,7 +65,7 @@ proxies:
       #Host: ikd.bukanvvip.my.id
 - name: opok
   type: vmess
-  server: id1-temp.v2-ray.com
+  server: 104.22.24.131
   port: 80
   uuid: afef92d5-b5b9-46aa-a982-3914fe62c1c5
   alterId: 0
@@ -78,10 +78,10 @@ proxies:
   ws-opts:
     path: /worryfree/?u\u003dgarasken123\u0026p\u003d6385ba78d4de2
     headers:
-      Host: tsel.me
+      Host: id1-temp.v2-ray.com
 - name: ilped
   type: vmess
-  server: 104.18.25.139
+  server: 104.22.24.131
   port: 443
   uuid: 6fa6f7f6-9505-4543-a163-71775824c80b
   alterId: 0
@@ -97,7 +97,7 @@ proxies:
       Host: v2ray1.udpgw.com
 - name: ilped1
   type: vmess
-  server: 139.99.79.140
+  server: 104.22.24.131
   port: 80
   uuid: 20646825-531e-4578-bdfc-dc4bdffb8d72
   alterId: 0
@@ -137,9 +137,25 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: ruangguru.com
+  servername: skillacademy.com
   network: ws
   ws-opts:
     path: /worryfree
     headers:
       Host: worry.free.slowssh.my.id
+- name: ilpedtelkomsel
+  type: vmess
+  server: 104.22.24.131
+  port: 80
+  uuid: 6db2d009-e4d8-40d3-8b39-5d2ae683dfb8
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: udemy.com
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: sg2ray.xrayjrt.me
