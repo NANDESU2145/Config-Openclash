@@ -129,7 +129,7 @@ proxies:
       Host: worry.free.slowssh.my.id
 - name: ilpedtsel2
   type: vmess
-  server: 104.18.24.139
+  server: 104.22.25.131
   port: 80
   uuid: 7ce9b0fb-7b77-4175-b350-d88441af385c
   alterId: 0
@@ -137,7 +137,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: skillacademy.com
+  servername: ruangguru.com
   network: ws
   ws-opts:
     path: /worryfree
