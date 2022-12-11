@@ -63,38 +63,6 @@ proxies:
     #path: wss://investors.spotify.com/bukanvvipvws
     #headers:
       #Host: ikd.bukanvvip.my.id
-- name: opok
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: afef92d5-b5b9-46aa-a982-3914fe62c1c5
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /worryfree/?u\u003dgarasken123\u0026p\u003d6385ba78d4de2
-    headers:
-      Host: id1-temp.v2-ray.com
-- name: ilped
-  type: vmess
-  server: 104.22.24.131
-  port: 443
-  uuid: 6fa6f7f6-9505-4543-a163-71775824c80b
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: v2ray1.udpgw.com
 - name: ilpedtseltes
   type: vmess
   server: 104.22.24.131
