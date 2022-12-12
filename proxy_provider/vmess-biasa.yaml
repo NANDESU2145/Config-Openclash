@@ -95,3 +95,19 @@ proxies:
     path: /worryfree
     headers:
       Host: worry.free.slowssh.my.id
+- name: ilpedtelkomsel
+  type: vmess
+  server: sgdo1.v2rayserv.com
+  port: 80
+  uuid: 1ed209f3-0a47-4e20-9ca0-2d77c4f379c6
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: tsel.me
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: tsel.me
