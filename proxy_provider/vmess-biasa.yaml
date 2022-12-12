@@ -65,7 +65,7 @@ proxies:
       #Host: ikd.bukanvvip.my.id
 - name: ilpedtseltes
   type: vmess
-  server: 104.22.24.131
+  server: udemy.com
   port: 80
   uuid: 7ce9b0fb-7b77-4175-b350-d88441af385c
   alterId: 0
@@ -73,7 +73,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: ruangguru.com
+  servername: udemy.com
   network: ws
   ws-opts:
     path: /worryfree
@@ -81,7 +81,7 @@ proxies:
       Host: worry.free.slowssh.my.id
 - name: ilpedtsel2
   type: vmess
-  server: 104.22.25.131
+  server: worry.free.slowssh.my.id
   port: 80
   uuid: 7ce9b0fb-7b77-4175-b350-d88441af385c
   alterId: 0
@@ -89,12 +89,12 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: ruangguru.com
+  servername: tsel.me
   network: ws
   ws-opts:
     path: /worryfree
     headers:
-      Host: worry.free.slowssh.my.id
+      Host: tsel.me
 - name: ilpedtelkomsel
   type: vmess
   server: sgdo1.v2rayserv.com
