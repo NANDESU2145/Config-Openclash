@@ -25,16 +25,16 @@ proxies:
 #     path: wss://zendesk1.appsflyer.com/bukanvvip
 #     headers:
 #       Host: ikd.bukanvvip.my.id
-- name: opoktsel
-  server: 104.22.24.131
-  port: 80
-  type: trojan
-  password: akunbaru
-  network: ws
-  sni: ruangguru.com
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /worryfree?type\u003dxray-trojan-ws-tls
-    headers:
-      Host: ec2-13-213-177-241.ap-southeast-1.compute.amazonaws.com
+# - name: opoktsel
+#   server: 104.22.24.131
+#   port: 80
+#   type: trojan
+#   password: akunbaru
+#   network: ws
+#   sni: ruangguru.com
+#   skip-cert-verify: true
+#   udp: true
+#   ws-opts:
+#     path: /worryfree?type\u003dxray-trojan-ws-tls
+#     headers:
+#       Host: ec2-13-213-177-241.ap-southeast-1.compute.amazonaws.com
