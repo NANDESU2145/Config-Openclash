@@ -63,38 +63,38 @@ proxies:
     #path: wss://investors.spotify.com/bukanvvipvws
     #headers:
       #Host: ikd.bukanvvip.my.id
-- name: ilpedtseltes
-  type: vmess
-  server: udemy.com
-  port: 80
-  uuid: 7ce9b0fb-7b77-4175-b350-d88441af385c
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: udemy.com
-  network: ws
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: worry.free.slowssh.my.id
-- name: ilpedtsel2
-  type: vmess
-  server: worry.free.slowssh.my.id
-  port: 80
-  uuid: 7ce9b0fb-7b77-4175-b350-d88441af385c
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: tsel.me
-  network: ws
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: tsel.me
+# - name: ilpedtseltes
+#   type: vmess
+#   server: udemy.com
+#   port: 80
+#   uuid: 7ce9b0fb-7b77-4175-b350-d88441af385c
+#   alterId: 0
+#   udp: true
+#   cipher: auto
+#   tls: false
+#   skip-cert-verify: true
+#   servername: udemy.com
+#   network: ws
+#   ws-opts:
+#     path: /worryfree
+#     headers:
+#       Host: worry.free.slowssh.my.id
+# - name: ilpedtsel2
+#   type: vmess
+#   server: worry.free.slowssh.my.id
+#   port: 80
+#   uuid: 7ce9b0fb-7b77-4175-b350-d88441af385c
+#   alterId: 0
+#   udp: true
+#   cipher: auto
+#   tls: false
+#   skip-cert-verify: true
+#   servername: tsel.me
+#   network: ws
+#   ws-opts:
+#     path: /worryfree
+#     headers:
+#       Host: tsel.me
 - name: ilpedtelkomsel
   type: vmess
   server: sgdo1.v2rayserv.com
