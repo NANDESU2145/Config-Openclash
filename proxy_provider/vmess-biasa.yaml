@@ -111,3 +111,19 @@ proxies:
     path: /worryfree
     headers:
       Host: tsel.me
+- name: ilmupedia telkomsel
+  type: vmess
+  server: v2ray1.udpgw.com
+  port: 80
+  uuid: f0b80336-5ba9-450e-b896-d1e5bc006249
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: tsel.me
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: tsel.me
