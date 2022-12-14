@@ -1,4 +1,4 @@
-# proxies:
+proxies:
 # - name: vless nusa
 #   server: 104.22.24.131
 #   port: 443
@@ -29,3 +29,19 @@
 #     path: wss://nusa.bukanvvip.my.id/websocket
 #     headers:
 #       Host: nusa.bukanvvip.my.id
+- name: opokvless
+  server: 103.157.116.44
+  port: 443
+  type: vless
+  uuid: 7df3e9b1-2d50-4b95-b264-80029e7dd46e
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: tsel.me
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: tsel.me
+  udp: true
+
