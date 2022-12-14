@@ -35,7 +35,7 @@ proxies:
   type: vless
   uuid: 7df3e9b1-2d50-4b95-b264-80029e7dd46e
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
   servername: tsel.me
   network: ws
@@ -49,7 +49,7 @@ proxies:
   port: 80
   type: vless
   uuid: 57185eea-954e-4b59-b1ab-4e412771e1f2
-    cipher: auto
+  cipher: auto
   tls: false
   skip-cert-verify: true
   servername: tsel.me
