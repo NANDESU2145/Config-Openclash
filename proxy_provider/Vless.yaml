@@ -44,4 +44,18 @@ proxies:
     headers:
       Host: tsel.me
   udp: true
-
+- name: Gege
+  server: 188.166.240.222
+  port: 80
+  type: vless
+  uuid: 57185eea-954e-4b59-b1ab-4e412771e1f2
+    cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: tsel.me
+  network: ws
+  ws-opts:
+    path: /worryfree/vless
+    headers:
+      Host: tsel.me
+  udp: true
