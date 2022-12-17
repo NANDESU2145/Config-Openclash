@@ -116,26 +116,6 @@ proxy-groups:
     - DIRECT
     - 🔑Proxy
 # ================= rule-providers==================
-rule-providers:
-  Bokepmaster:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/rules_provider/Bokepmaster.yaml
-    path: "./rule_provider/Bokepmaster.yaml"
-    interval: 86400
-  Iklanmaster:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/rules_provider/Iklanmaster.yaml
-    path: "./rule_provider/Iklanmaster.yaml"
-    interval: 86400
-  WhatsApp:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/rules_provider/WhatsApp.yaml
-    path: "./rule_provider/WhatsApp.yaml"
-    interval: 86400
-# ================= RULES ==================
 rules:
 - DOMAIN,mobile-legends.net,🎮Games
 - DOMAIN,face.yuanzhanapp.com,🎮Games
@@ -223,7 +203,4 @@ rules:
 - IP-CIDR,172.64.0.0/13,🔑Proxy
 - IP-CIDR,131.0.72.0/22,🔑Proxy
 - GEOIP,GLOBAL,🔑Proxy
-- RULE-SET,Bokepmaster,❌AdBlock
-- RULE-SET,Iklanmaster,❌AdBlock
-- RULE-SET,WhatsApp,⚡Direct
 - MATCH,🔑Proxy
