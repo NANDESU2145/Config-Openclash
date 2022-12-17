@@ -127,3 +127,19 @@ proxies:
     path: /worryfree
     headers:
       Host: tsel.me
+- name: opok1
+  type: vmess
+  server: dynamic-sg2b.obfs.xyz
+  port: 80
+  uuid: 9ed6c133-6eaf-4849-8a3d-0c51c802379a
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: tsel.me
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: tsel.me
