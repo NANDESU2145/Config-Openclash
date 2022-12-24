@@ -127,3 +127,19 @@ proxies:
     path: /worryfree
     headers:
       Host: tsel.me
+- name: ilmupedia telkomsel
+  type: vmess
+  server: 104.26.5.192
+  port: 80
+  uuid: 1a7c8ce9-ed97-45c1-bbd8-bda980450233
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: chat.sociomile.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: atha.readyto.rocks
