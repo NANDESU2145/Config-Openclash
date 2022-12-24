@@ -127,7 +127,7 @@ proxies:
     path: /worryfree
     headers:
       Host: tsel.me
-- name: ilmupedia telkomsel
+- name: Akun desember
   type: vmess
   server: 104.26.5.192
   port: 80
