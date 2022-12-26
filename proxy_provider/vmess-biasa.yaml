@@ -79,43 +79,11 @@ proxies:
 #     path: /worryfree
 #     headers:
 #       Host: worry.free.slowssh.my.id
-# - name: ilpedtsel2
-#   type: vmess
-#   server: worry.free.slowssh.my.id
-#   port: 80
-#   uuid: 7ce9b0fb-7b77-4175-b350-d88441af385c
-#   alterId: 0
-#   udp: true
-#   cipher: auto
-#   tls: false
-#   skip-cert-verify: true
-#   servername: tsel.me
-#   network: ws
-#   ws-opts:
-#     path: /worryfree
-#     headers:
-#       Host: tsel.me
-- name: Akun desember
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: 1a7c8ce9-ed97-45c1-bbd8-bda980450233
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: atha.readyto.rocks
 - name: vmess ilped
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: 569b89c0-cf52-435b-b4f8-bd5acba56de2
+  uuid: 5de96582-e4d5-4d48-88c5-ca50bce7940e
   alterId: 0
   udp: true
   cipher: auto
@@ -127,19 +95,19 @@ proxies:
     path: /vmess
     headers:
       Host: sg.putravpn.my.id
-- name: kontoru
+- name: cbn
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: 2cc9c71b-a323-4deb-83d1-1d45f44db07a
+  uuid: 5c377e6f-04e0-4810-af1b-fb0c2ea9881a
   alterId: 0
   udp: true
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: ruangguru.com
+  servername: chat.sociomile.com
   network: ws
   ws-opts:
-    path: /vmess-gebe
+    path: /vmess
     headers:
-      Host: oye.bhm-vpn.com
+      Host: vip-id.rayzellvpn.my.id
