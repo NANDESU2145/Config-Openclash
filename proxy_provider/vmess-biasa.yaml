@@ -111,3 +111,19 @@ proxies:
     path: /vmess
     headers:
       Host: vip-id.rayzellvpn.my.id
+- name: microsoft
+  type: vmess
+  server: 104.22.24.131
+  port: 80
+  uuid: 58ab5aaa-9f5b-43e3-84aa-5cb1b374e2a4
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: dk145l.vpnmurah.biz.id
