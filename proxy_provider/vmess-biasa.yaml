@@ -127,7 +127,7 @@ proxies:
     path: /vmess
     headers:
       Host: dk145l.vpnmurah.biz.id
-- name: ovh_SG7🇸🇬
+- name: OVH 🇸🇬7
   type: vmess
   server: 104.22.24.131
   port: 80
@@ -143,7 +143,7 @@ proxies:
     path: /JAGOANSSH/
     headers:
       Host: sg7-ray.ipservers.xyz
-- name: ovh_SG8🇸🇬
+- name: OVH 🇸🇬8
   type: vmess
   server: 104.22.24.131
   port: 80
