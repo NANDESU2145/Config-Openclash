@@ -79,11 +79,11 @@ proxies:
 #     path: /worryfree
 #     headers:
 #       Host: worry.free.slowssh.my.id
-- name: vmess ilped
+- name: Nusa ID
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: 5de96582-e4d5-4d48-88c5-ca50bce7940e
+  uuid: fc5272f7-3a43-4b85-8ef6-b866fe39d80c
   alterId: 0
   udp: true
   cipher: auto
@@ -92,25 +92,9 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmess
+    path: /vmess-ws/Nandenande-trial
     headers:
-      Host: sg.putravpn.my.id
-- name: CBN🇲🇨
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: 5c377e6f-04e0-4810-af1b-fb0c2ea9881a
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: chat.sociomile.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: vip-id.rayzellvpn.my.id
+      Host: ns-id01.ipv2ray.xyz
 - name: microsoft 🇸🇬
   type: vmess
   server: 104.22.24.131
