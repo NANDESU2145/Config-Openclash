@@ -77,11 +77,11 @@ proxy-groups:
 - name: 🔑Proxy
   type: select
   proxies:
-    - SERVER
-    - all-akun
-    - auto_select_ping_imut
+    - SERVER 🚀
+    - all-akun 🛰
+    - auto_select_ping_imut 🔥
     - fallback-auto
-- name: SERVER
+- name: SERVER 🚀
   type: load-balance
   strategy: round-robin
   disable-udp: false
@@ -91,13 +91,13 @@ proxy-groups:
   # - Vless
   url: http://www.gstatic.com/generate_204
   interval: 300
-- name: all-akun
+- name: all-akun 🛰
   type: select
   use:
   - Vmess
   # - Trojan
   # - Vless
-- name: auto_select_ping_imut
+- name: auto_select_ping_imut 🔥
   type: url-test
   use:
   - Vmess
