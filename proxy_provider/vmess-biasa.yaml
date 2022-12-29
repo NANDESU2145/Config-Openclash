@@ -79,11 +79,11 @@ proxies:
 #     path: /worryfree
 #     headers:
 #       Host: worry.free.slowssh.my.id
-- name: Nusa ID
+- name: UAS ID
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: fc5272f7-3a43-4b85-8ef6-b866fe39d80c
+  uuid: f8bb9318-5dbe-42be-a708-7c497d782e6a
   alterId: 0
   udp: true
   cipher: auto
@@ -92,9 +92,9 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmess-ws/Nandenande-trial
+    path: /vmess-ws/apaansih
     headers:
-      Host: ns-id01.ipv2ray.xyz
+      Host: uas-id01.ipv2ray.xyz
 - name: microsoft 🇸🇬
   type: vmess
   server: 104.22.24.131
@@ -147,7 +147,7 @@ proxies:
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: 15149def-31d8-4011-94ed-f64807ee9915
+  uuid: ddfadcdf-2911-4e92-a2cf-616c273891cb
   alterId: 0
   udp: true
   cipher: auto
@@ -156,6 +156,6 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmess-ws/Nandena-trial
+    path: /vmess-ws/nandenande
     headers:
       Host: sggs-sg01.ipv2ray.xyz
