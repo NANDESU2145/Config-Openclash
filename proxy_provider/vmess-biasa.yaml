@@ -95,11 +95,11 @@ proxies:
     path: /vmess-ws/nandenande
     headers:
       Host: sggs-sg01.ipv2ray.xyz
-- name: CBN 🇲🇨
+- name: DO 🇺🇸
   type: vmess
   server: 104.26.7.171
   port: 80
-  uuid: 5c377e6f-04e0-4810-af1b-fb0c2ea9881a
+  uuid: a19c1366-2cf5-45cc-81b3-b831481eff5b
   alterId: 0
   udp: true
   cipher: auto
@@ -108,9 +108,9 @@ proxies:
   servername: chat.sociomile.com
   network: ws
   ws-opts:
-    path: /vmess
+    path: /v2ray
     headers:
-      Host: vip-id.rayzellvpn.my.id
+      Host: do-vip3.dnstore.my.id
 - name: microsoft 🇸🇬
   type: vmess
   server: 104.26.7.171
