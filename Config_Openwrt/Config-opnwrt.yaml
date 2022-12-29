@@ -77,11 +77,11 @@ proxy-groups:
 - name: 🔑Proxy
   type: select
   proxies:
-    - Loadbalancing
+    - SERVER
     - all-akun
     - auto_select_ping_imut
     - fallback-auto
-- name: SERVERS
+- name: SERVER
   type: load-balance
   strategy: round-robin
   disable-udp: false
