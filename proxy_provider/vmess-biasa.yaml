@@ -159,3 +159,19 @@ proxies:
     path: /JAGOANSSH/
     headers:
       Host: sg8-ray.ipservers.xyz
+- name: CHOPA 🇸🇬
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: f53c6af0-9fee-4aa8-b815-de9e17c49630
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess-testung
+    headers:
+      Host: oye.bhm-vpn.com
