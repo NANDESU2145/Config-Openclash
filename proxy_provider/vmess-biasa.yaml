@@ -159,3 +159,19 @@ proxies:
     path: /JAGOANSSH/
     headers:
       Host: sg8-ray.ipservers.xyz
+- name: SGGS SG 01 
+  type: vmess
+  server: 104.22.24.131
+  port: 80
+  uuid: 15149def-31d8-4011-94ed-f64807ee9915
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess-ws/Nandena-trial
+    headers:
+      Host: sggs-sg01.ipv2ray.xyz
