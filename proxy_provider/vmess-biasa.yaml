@@ -79,11 +79,11 @@ proxies:
 #     path: /worryfree
 #     headers:
 #       Host: worry.free.slowssh.my.id
-- name: UAS ID
+- name: vmess ilped
   type: vmess
-  server: 104.22.24.131
+  server: 104.26.7.171
   port: 80
-  uuid: f8bb9318-5dbe-42be-a708-7c497d782e6a
+  uuid: 5de96582-e4d5-4d48-88c5-ca50bce7940e
   alterId: 0
   udp: true
   cipher: auto
@@ -92,12 +92,28 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmess-ws/apaansih
+    path: /vmess
     headers:
-      Host: uas-id01.ipv2ray.xyz
+      Host: sg.putravpn.my.id
+- name: CBN🇲🇨
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: 5c377e6f-04e0-4810-af1b-fb0c2ea9881a
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: chat.sociomile.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: vip-id.rayzellvpn.my.id
 - name: microsoft 🇸🇬
   type: vmess
-  server: 104.22.24.131
+  server: 104.26.7.171
   port: 80
   uuid: 58ab5aaa-9f5b-43e3-84aa-5cb1b374e2a4
   alterId: 0
@@ -113,7 +129,7 @@ proxies:
       Host: dk145l.vpnmurah.biz.id
 - name: OVH 🇸🇬7
   type: vmess
-  server: 104.22.24.131
+  server: 104.26.7.171
   port: 80
   uuid: ecc37aae-5e85-4b0e-b4fd-434015ef7fd9
   alterId: 0
@@ -129,7 +145,7 @@ proxies:
       Host: sg7-ray.ipservers.xyz
 - name: OVH 🇸🇬8
   type: vmess
-  server: 104.22.24.131
+  server: 104.26.7.171
   port: 80
   uuid: 0da72b35-d12e-46a8-8454-9d87a74f0517
   alterId: 0
@@ -143,19 +159,3 @@ proxies:
     path: /JAGOANSSH/
     headers:
       Host: sg8-ray.ipservers.xyz
-- name: SGGS SG
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: ddfadcdf-2911-4e92-a2cf-616c273891cb
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess-ws/nandenande
-    headers:
-      Host: sggs-sg01.ipv2ray.xyz
