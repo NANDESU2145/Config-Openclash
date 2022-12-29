@@ -172,6 +172,6 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmess-ws/Nandena-trial
+    path: /vmess-ws/
     headers:
       Host: sggs-sg01.ipv2ray.xyz
