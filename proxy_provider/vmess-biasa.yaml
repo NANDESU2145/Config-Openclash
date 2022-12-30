@@ -175,22 +175,6 @@ proxies:
     path: /vmess
     headers:
       Host: id1.v2-ray.us
-- name: jago 🇸🇬
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 7e64ac0d-1bab-464c-aeea-a0360bdd2c1e
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: sg-ray.ipservers.xyz
-  network: ws
-  ws-opts:
-    path: /JAGOANSSH/
-    headers:
-      Host: sg-ray.ipservers.xyz
 - name: IDC 🇸🇬
   type: vmess
   server: 104.26.7.171
