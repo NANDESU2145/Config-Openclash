@@ -95,7 +95,7 @@ proxies:
     path: /vmess-ws/nandenande
     headers:
       Host: sggs-sg01.ipv2ray.xyz
-- name: DO 
+- name: DO 🇸🇬
   type: vmess
   server: 104.26.7.171
   port: 80
@@ -163,7 +163,7 @@ proxies:
   type: vmess
   server: 104.26.7.171
   port: 80
-  uuid: f53c6af0-9fee-4aa8-b815-de9e17c49630
+  uuid: 21d1cbd3-2c0c-4b6e-b3eb-359e1606921d
   alterId: 0
   udp: true
   cipher: auto
@@ -172,6 +172,6 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmess-testung
+    path: /vmess
     headers:
-      Host: oye.bhm-vpn.com
+      Host: id1.v2-ray.us
