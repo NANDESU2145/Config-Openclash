@@ -95,22 +95,22 @@ proxies:
     path: /vmess-ws/nandenande
     headers:
       Host: sggs-sg01.ipv2ray.xyz
-- name: DO 🇺🇸
+- name: DO 
   type: vmess
   server: 104.26.7.171
   port: 80
-  uuid: a19c1366-2cf5-45cc-81b3-b831481eff5b
+  uuid: 772244ed-c50b-454e-9cdc-984026a7636b
   alterId: 0
   udp: true
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: chat.sociomile.com
+  servername: sg6.v2rayserv.com
   network: ws
   ws-opts:
-    path: /v2ray
+    path: /vmess
     headers:
-      Host: do-vip3.dnstore.my.id
+      Host: sg6.v2rayserv.com
 - name: microsoft 🇸🇬
   type: vmess
   server: 104.26.7.171
