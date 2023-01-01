@@ -159,3 +159,19 @@ proxies:
     path: /vmess
     headers:
       Host: skartivpn.jomblovip.me
+- name: jagoanssh sg2 
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: 994c66a1-6fbe-4323-a120-4c5c493431e2
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /JAGOANSSH/
+    headers:
+      Host: sg2-ray.ipservers.xyz
