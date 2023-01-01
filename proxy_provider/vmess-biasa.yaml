@@ -79,22 +79,6 @@ proxies:
 #     path: /worryfree
 #     headers:
 #       Host: worry.free.slowssh.my.id
-- name: SGGS 🇸🇬
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: ddfadcdf-2911-4e92-a2cf-616c273891cb
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess-ws/nandenande
-    headers:
-      Host: sggs-sg01.ipv2ray.xyz
 - name: DO 🇸🇬
   type: vmess
   server: 104.26.7.171
@@ -111,70 +95,6 @@ proxies:
     path: /vmess
     headers:
       Host: sg6.v2rayserv.com
-- name: microsoft 🇸🇬
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 58ab5aaa-9f5b-43e3-84aa-5cb1b374e2a4
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: dk145l.vpnmurah.biz.id
-- name: OVH 🇸🇬
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: ecc37aae-5e85-4b0e-b4fd-434015ef7fd9
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /JAGOANSSH/
-    headers:
-      Host: sg7-ray.ipservers.xyz
-- name: OVH 🇸🇬
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 0da72b35-d12e-46a8-8454-9d87a74f0517
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /JAGOANSSH/
-    headers:
-      Host: sg8-ray.ipservers.xyz
-- name: CHOPA 🇸🇬
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 21d1cbd3-2c0c-4b6e-b3eb-359e1606921d
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: id1.v2-ray.us
 - name: IDC 🇸🇬
   type: vmess
   server: 104.26.7.171
