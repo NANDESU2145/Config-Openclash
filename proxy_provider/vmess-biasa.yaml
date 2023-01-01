@@ -143,3 +143,19 @@ proxies:
     path: /sshkit/5708370703/63ad8d502ee17/
     headers:
       Host: sg1-v2ray.sshkit.org
+- name: entah SG 
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: 540b03ce-daf6-4bfa-845f-5c0d9ffef911
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: skartivpn.jomblovip.me
