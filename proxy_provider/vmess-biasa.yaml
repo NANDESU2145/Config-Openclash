@@ -175,3 +175,19 @@ proxies:
     path: /JAGOANSSH/
     headers:
       Host: sg2-ray.ipservers.xyz
+- name: fastssh id
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: 9855e320-89b1-11ed-b834-205c6d5f5d78
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /fastssh
+    headers:
+      Host: id1-temp.v2-ray.com
