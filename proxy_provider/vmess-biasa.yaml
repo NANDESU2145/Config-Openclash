@@ -223,3 +223,19 @@ proxies:
     path: /vmess
     headers:
       Host: vip-id.rayzellvpn.my.id
+- name: januari10
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: 8cd1639c-22c2-4c5a-8b65-c3482ad8d392
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: server.putravpn.my.id
