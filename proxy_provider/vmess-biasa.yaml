@@ -143,22 +143,6 @@ proxies:
     path: /sshkit/5708370703/63ad8d502ee17/
     headers:
       Host: sg1-v2ray.sshkit.org
-- name: entah SG 
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 540b03ce-daf6-4bfa-845f-5c0d9ffef911
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: skartivpn.jomblovip.me
 - name: jagoanssh sg2 
   type: vmess
   server: 104.26.7.171
@@ -271,3 +255,19 @@ proxies:
     path: /v2ray
     headers:
       Host: id6.v2rayserv.com
+- name: januari11
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: 2189eff9-b3c0-457d-933b-2a12c26b9194
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /xrayws
+    headers:
+      Host: vip.dunia-vpn.my.id
