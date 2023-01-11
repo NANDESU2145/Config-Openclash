@@ -271,3 +271,19 @@ proxies:
     path: /xrayws
     headers:
       Host: vip.dunia-vpn.my.id
+- name: nusanet januari 11
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: 331c2937-058d-444d-b2ae-69dac3d11d70
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess-ws/Hanan
+    headers:
+      Host: ns-id01.ipv2ray.xyz
