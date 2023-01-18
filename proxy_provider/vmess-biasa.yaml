@@ -79,54 +79,6 @@ proxies:
 #     path: /worryfree
 #     headers:
 #       Host: worry.free.slowssh.my.id
-- name: DO 🇸🇬
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 772244ed-c50b-454e-9cdc-984026a7636b
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: sg6.v2rayserv.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg6.v2rayserv.com
-- name: IDC 🇸🇬
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 1d742742-cee7-4082-9d78-060c060544e6
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: build49.yukmldi.studio
-  network: ws
-  ws-opts:
-    path: /worryfree/potatoganteng
-    headers:
-      Host: build49.yukmldi.studio
-- name: CHOPA 馃嚫馃嚞
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 21d1cbd3-2c0c-4b6e-b3eb-359e1606921d
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: id1.v2-ray.us
 - name: titis SG 
   type: vmess
   server: 104.26.7.171
@@ -143,43 +95,11 @@ proxies:
     path: /sshkit/5708370703/63ad8d502ee17/
     headers:
       Host: sg1-v2ray.sshkit.org
-- name: jagoanssh sg2 
+- name: nusanet januari 18
   type: vmess
   server: 104.26.7.171
   port: 80
-  uuid: 994c66a1-6fbe-4323-a120-4c5c493431e2
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /JAGOANSSH/
-    headers:
-      Host: sg2-ray.ipservers.xyz
-- name: fastssh id
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 9855e320-89b1-11ed-b834-205c6d5f5d78
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /fastssh
-    headers:
-      Host: id1-temp.v2-ray.com
-- name: sg sg 
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 154c10b3-d5db-4731-a3be-14d7c45695ea
+  uuid: 1d383783-5f97-4ae1-bff9-46b2a7a3c2b6
   alterId: 0
   udp: true
   cipher: auto
@@ -190,100 +110,4 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: sg.vipserver.my.id
-- name: PT Atharva Telematika Persada
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: f2fdfbb5-e243-4d10-a2c7-68e32bbceaab
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: vip-id.rayzellvpn.my.id
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: vip-id.rayzellvpn.my.id
-- name: januari10
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 8cd1639c-22c2-4c5a-8b65-c3482ad8d392
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: server.putravpn.my.id
-- name: januari10ilped
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: bd93873f-fdae-484b-91d9-bf635d3d72a9
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: v2ray1.udpgw.com
-- name: januarilpedhnan
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 37b3adcb-3a79-4df2-81ed-cf2c7db037c1
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /v2ray
-    headers:
-      Host: id6.v2rayserv.com
-- name: januari11
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 2189eff9-b3c0-457d-933b-2a12c26b9194
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /xrayws
-    headers:
-      Host: vip.dunia-vpn.my.id
-- name: nusanet januari 11
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 331c2937-058d-444d-b2ae-69dac3d11d70
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess-ws/Hanan
-    headers:
-      Host: ns-id01.ipv2ray.xyz
+      Host: opok.rizkishope.my.id
