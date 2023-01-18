@@ -111,3 +111,19 @@ proxies:
     path: /vmess
     headers:
       Host: opok.rizkishope.my.id
+- name: bogor
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: 86d4a0fd-6417-41a4-9e43-3078f5ff0eaa
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: serverikd.potatonc.my.id
