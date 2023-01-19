@@ -143,3 +143,19 @@ proxies:
     path: /vmess
     headers:
       Host: sg-vip.rayzellvpn.my.id
+- name: sgdo 2
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: 9dfff207-62d2-4776-9f4c-1c6eb67d2ef4
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: shwza-autosc.aixxy.codes
