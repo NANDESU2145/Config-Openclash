@@ -159,3 +159,19 @@ proxies:
     path: /worryfree
     headers:
       Host: shwza-autosc.aixxy.codes
+- name: sgdo 3
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: b23c7ba8-5458-4e68-bda3-613d73e99b9e
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: free.sky--vpn.my.id
