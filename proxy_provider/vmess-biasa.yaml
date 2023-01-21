@@ -159,3 +159,19 @@ proxies:
     path: /herbalserver
     headers:
       Host: sgl-1.herbalv2ray.me
+- name: AMP 3
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: e3688e1e-51bf-425e-8086-16c4e9f09b9f
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /herbalserver
+    headers:
+      Host: 3y4ik.ftvpn.me
