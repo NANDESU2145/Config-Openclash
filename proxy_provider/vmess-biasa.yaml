@@ -111,7 +111,6 @@ proxies:
     path: /vmess
     headers:
       Host: opok.rizkishope.my.id
-
 - name: huricane
   type: vmess
   server: 104.26.7.171
