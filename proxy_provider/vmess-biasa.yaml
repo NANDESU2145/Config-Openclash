@@ -172,6 +172,6 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /herbalserver
+    path: /vmess
     headers:
       Host: 3y4ik.ftvpn.me
