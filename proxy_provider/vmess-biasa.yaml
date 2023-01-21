@@ -206,4 +206,37 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: sg-6.0rd.net
+      Host: sg-6.0rd.
+- name: yaya
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: 0030e171-3713-4e99-be8b-005a52f40c6e
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg1.xvless.xyz
+- name: AMP 2
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: 70fca90e-9e14-441e-8738-015697d101c7
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /herbalserver
+    headers:
+      Host: sgl-1.herbalv2ray.me
+
