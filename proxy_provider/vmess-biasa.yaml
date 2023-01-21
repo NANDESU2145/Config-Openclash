@@ -239,4 +239,3 @@ proxies:
     path: /herbalserver
     headers:
       Host: sgl-1.herbalv2ray.me
-
