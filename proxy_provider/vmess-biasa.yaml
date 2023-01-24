@@ -175,3 +175,19 @@ proxies:
     path: /vmess
     headers:
       Host: 3y4ik.ftvpn.me
+- name: AMP 4
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: 8981fa4d-ae31-4d59-9950-478b97261a9f
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: dvoi3.ftvpn.xyz
