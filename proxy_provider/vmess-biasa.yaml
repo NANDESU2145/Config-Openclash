@@ -111,11 +111,11 @@ proxies:
     path: /vmess
     headers:
       Host: sg1.xvless.xyz
-- name: Aiyaiya
+- name: rayzelvpn
   type: vmess
   server: 104.26.7.171
   port: 80
-  uuid: 8981fa4d-ae31-4d59-9950-478b97261a9f
+  uuid: 774b8562-99d4-4f95-9217-6d013db9fded
   alterId: 0
   udp: true
   cipher: auto
@@ -126,4 +126,4 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: dvoi3.ftvpn.xyz
+      Host: vip-id.rayzellvpn.my.id
