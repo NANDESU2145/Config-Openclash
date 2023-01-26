@@ -131,7 +131,7 @@ proxies:
   type: vmess
   server: 104.26.7.171
   port: 80
-  uuid: b7e7fdf0-5cd4-4681-a8ea-4a1c74d152af
+  uuid: 1d5eea0b-9a4e-4699-93d2-53f7e16a59e5
   alterId: 0
   udp: true
   cipher: auto
@@ -142,4 +142,4 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: sg1ray.ipturbo.biz.id
+      Host: free1.fssh-store.my.id
