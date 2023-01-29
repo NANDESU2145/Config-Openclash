@@ -95,3 +95,19 @@ proxies:
     path: /vmess
     headers:
       Host: jpjoq.ftvpn.xyz
+- name: DO
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: 30a5bd60-f91e-4177-9f90-c88c55a06013
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg-do.rizkishope.my.id
