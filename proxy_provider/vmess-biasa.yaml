@@ -111,3 +111,19 @@ proxies:
     path: /vmess
     headers:
       Host: sg-do.rizkishope.my.id
+- name: DO 1
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: f57efc2a-0000-466a-be8e-7b82ca791b76
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sgp1.netq.me
