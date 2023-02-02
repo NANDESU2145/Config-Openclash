@@ -131,7 +131,7 @@ proxies:
   type: vmess
   server: 104.26.7.171
   port: 80
-  uuid: b5ac33e5-27a5-4c86-af10-fe837e260951
+  uuid: 556b24e5-0178-4ab9-8b2a-21b1968880e5
   alterId: 0
   udp: true
   cipher: auto
@@ -142,4 +142,4 @@ proxies:
   ws-opts:
     path: @MTCSTORES
     headers:
-      Host: sgo.mtcvpn.net
+      Host: 6ofj69.scvps.my.id
