@@ -140,6 +140,6 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: @MTCSTORES
+    path: /vmess
     headers:
       Host: 6ofj69.scvps.my.id
