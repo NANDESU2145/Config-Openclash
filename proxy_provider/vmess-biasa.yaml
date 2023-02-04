@@ -158,4 +158,20 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: ora-aji.hitsssh.live
+      Host: ora-aji.hitsssh.liveon
+  - name: DO 5
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: 556b24e5-0178-4ab9-8b2a-21b1968880e5
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmessws
+    headers:
+      Host: 6ofj69.scvps.my.id
