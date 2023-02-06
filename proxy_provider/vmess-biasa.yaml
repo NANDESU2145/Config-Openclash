@@ -127,22 +127,6 @@ proxies:
     path: /vmess
     headers:
       Host: vip8.oj6tq.opdns.net
-- name: DO 4
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: f53bdb9e-7657-41d8-8459-1cf70ccc35d6
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: ora-aji.hitsssh.liveon
 - name: DO 5
   type: vmess
   server: 104.26.7.171
