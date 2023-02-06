@@ -142,7 +142,8 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: ora-aji.hitsssh.liveon- name: DO 5
+      Host: ora-aji.hitsssh.liveon
+- name: DO 5
   type: vmess
   server: 104.26.7.171
   port: 80
