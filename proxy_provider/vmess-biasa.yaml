@@ -159,4 +159,19 @@ proxies:
     path: /vmessws
     headers:
       Host: 6ofj69.scvps.my.id
-  
+- name: DO 6
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: d9775b2b-14f2-4546-a7f1-b7e44262a2cd
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: vipmig.potatonc.my.id
