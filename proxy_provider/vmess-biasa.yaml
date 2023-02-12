@@ -127,3 +127,19 @@ proxies:
     path: /vmess
     headers:
       Host: sg.vmess1.xservs.xyz
+- name: DO 4
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: f157058e-6117-4583-b3dc-b1615a84ea4c
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /worryfree  
+    headers:
+      Host: beon.wesi.fun
