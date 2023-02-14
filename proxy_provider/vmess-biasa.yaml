@@ -159,3 +159,19 @@ proxies:
     path: /vmessws
     headers:
       Host: free-sg1.funny.my.id
+- name: DO 6
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: 5a28844a-d888-4d3e-9be5-2f61c4333afc
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmessws
+    headers:
+      Host: sg.vmess6.xservs.xyz
