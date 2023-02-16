@@ -147,7 +147,7 @@ proxies:
   type: vmess
   server: 104.26.7.171
   port: 80
-  uuid: 74af1c9a-a5ef-11ed-8490-cfb4009cdbb0
+  uuid: a0b3c92c-f321-41c3-b96d-ebfc11800276
   alterId: 0
   udp: true
   cipher: auto
@@ -156,9 +156,9 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmessws
+    path: /v2ray
     headers:
-      Host: free-sg1.funny.my.id
+      Host: apik-1.dnstore.biz.id
 - name: DO 6
   type: vmess
   server: 104.26.7.171
