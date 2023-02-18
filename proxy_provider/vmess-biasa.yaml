@@ -174,4 +174,4 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: hahahah
+      Host: hanan
