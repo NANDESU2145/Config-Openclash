@@ -158,9 +158,6 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-<<<<<<< HEAD
-      Host: sg.vmess6.xservs.xyz
-=======
       Host: sg.vmess6.xservs.xyz
 - name: DO 6
   type: vmess
@@ -178,4 +175,3 @@ proxies:
     path: /vmess
     headers:
       Host: hahahah
->>>>>>> hanan
