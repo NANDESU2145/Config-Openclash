@@ -159,3 +159,19 @@ proxies:
     path: /vmess
     headers:
       Host: sg.vmess6.xservs.xyz
+- name: DO 6
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: 
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: 
