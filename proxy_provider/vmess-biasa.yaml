@@ -79,7 +79,7 @@ proxies:
 #     path: /worryfree
 #     headers:
 #       Host: worry.free.slowssh.my.id
-- name: DO 3
+- name: DO 1
   type: vmess
   server: 104.26.7.171
   port: 80
@@ -95,7 +95,7 @@ proxies:
     path: /worryfree  
     headers:
       Host: beon.wesi.fun
-- name: DO 6
+- name: DO 2
   type: vmess
   server: 104.26.7.171
   port: 80
@@ -111,3 +111,19 @@ proxies:
     path: /vmess
     headers:
       Host: putrastores.xyz
+- name: DO 3
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: 7478bf90-d0e0-40c8-be63-f64e0ce49ac5
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: v2ray3.udpgw.com
