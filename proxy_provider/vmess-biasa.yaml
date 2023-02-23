@@ -79,38 +79,6 @@ proxies:
 #     path: /worryfree
 #     headers:
 #       Host: worry.free.slowssh.my.id
-- name: DO 1
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 556b24e5-0178-4ab9-8b2a-21b1968880e5
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: 6ofj69.scvps.my.id
-- name: DO 2
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 6e67f765-4fb4-4a08-85cb-c3ed3d08f2d2
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg.vmess1.xservs.xyz
 - name: DO 3
   type: vmess
   server: 104.26.7.171
