@@ -98,8 +98,8 @@ proxies:
 - name: DO 2
   type: vmess
   server: 104.26.7.171
-  port: 80
-  uuid: 96a9747b-992d-4f86-a2a5-d154f4a63634
+  port: 8880
+  uuid: e0b4eb03-4075-4b39-b26e-fc71d2273327
   alterId: 0
   udp: true
   cipher: auto
@@ -110,7 +110,7 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: putrastores.xyz
+      Host: asg02.unlissh.cfd
 - name: DO 3
   type: vmess
   server: 104.26.7.171
