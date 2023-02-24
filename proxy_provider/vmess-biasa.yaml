@@ -82,8 +82,8 @@ proxies:
 - name: DO 1
   type: vmess
   server: 104.26.7.171
-  port: 80
-  uuid: f157058e-6117-4583-b3dc-b1615a84ea4c
+  port: 8880
+  uuid: 613e4f24-8018-42e6-bf1a-bbc736085218
   alterId: 0
   udp: true
   cipher: auto
@@ -92,9 +92,9 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /worryfree  
+    path: /vmess/  
     headers:
-      Host: beon.wesi.fun
+      Host: asg01.unlissh.cfd
 - name: DO 2
   type: vmess
   server: 104.26.7.171
