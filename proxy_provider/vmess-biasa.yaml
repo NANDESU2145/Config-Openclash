@@ -98,22 +98,6 @@ proxies:
 - name: DO 2
   type: vmess
   server: 104.26.7.171
-  port: 8880
-  uuid: e0b4eb03-4075-4b39-b26e-fc71d2273327
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: asg02.unlissh.cfd
-- name: DO 3
-  type: vmess
-  server: 104.26.7.171
   port: 80
   uuid: 7478bf90-d0e0-40c8-be63-f64e0ce49ac5
   alterId: 0
@@ -127,7 +111,7 @@ proxies:
     path: /worryfree
     headers:
       Host: v2ray3.udpgw.com
-- name: DO 4
+- name: DO 3
   type: vmess
   server: 104.26.7.171
   port: 80
@@ -143,19 +127,3 @@ proxies:
     path: /sshkit/5832686990/63ed13daddd22/
     headers:
       Host: sg3-v2ray.sshkit.org
-- name: DO 5
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 6e1b1c62-5ac8-47e2-8e3a-90f2ba5f7c92
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /serverssh.net
-    headers:
-      Host: sg1ray.serverip.my.id
