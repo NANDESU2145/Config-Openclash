@@ -127,3 +127,19 @@ proxies:
     path: /sshkit/5832686990/63ed13daddd22/
     headers:
       Host: sg3-v2ray.sshkit.org
+- name: DO 4
+  type: vmess
+  server: 104.26.7.171
+  port: 80
+  uuid: 0fccf750-17c1-4587-8b20-b68821fbb652
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: yhaa.pro
