@@ -82,8 +82,8 @@ proxies:
 - name: DO 1
   type: vmess
   server: 104.26.7.171
-  port: 8880
-  uuid: 613e4f24-8018-42e6-bf1a-bbc736085218
+  port: 80
+  uuid: 959e90e1-01d1-45e1-8552-6991ae55a0b7
   alterId: 0
   udp: true
   cipher: auto
@@ -92,9 +92,9 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmess/  
+    path: /vmess
     headers:
-      Host: asg01.unlissh.cfd
+      Host: idcloud.rayzellinhere.me
 - name: DO 2
   type: vmess
   server: 104.26.7.171
