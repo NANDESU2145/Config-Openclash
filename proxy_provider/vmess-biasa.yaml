@@ -131,7 +131,7 @@ proxies:
   type: vmess
   server: 104.26.7.171
   port: 80
-  uuid: 0fccf750-17c1-4587-8b20-b68821fbb652
+  uuid: cb7b6b1f-c316-4286-ab7f-1d21fb0e3a2e
   alterId: 0
   udp: true
   cipher: auto
@@ -142,4 +142,4 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: yhaa.pro
+      Host: sgdo.jebbzy.me
