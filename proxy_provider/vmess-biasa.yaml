@@ -83,38 +83,6 @@ proxies:
   type: vmess
   server: 104.26.7.171
   port: 80
-  uuid: 959e90e1-01d1-45e1-8552-6991ae55a0b7
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: idcloud.rayzellinhere.me
-- name: DO 2
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: 85d14d13-93ff-4188-be46-b54ff3aa8531
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: id-dewabiz.nexsus.my.id
-- name: DO 3
-  type: vmess
-  server: 104.26.7.171
-  port: 80
   uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
   alterId: 0
   udp: true
@@ -127,22 +95,6 @@ proxies:
     path: /sshkit/5832686990/63ed13daddd22/
     headers:
       Host: sg3-v2ray.sshkit.org
-- name: DO 4
-  type: vmess
-  server: 104.26.7.171
-  port: 80
-  uuid: cb7b6b1f-c316-4286-ab7f-1d21fb0e3a2e
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sgdo.jebbzy.me
 - name: atha
   type: vmess
   server: 104.26.7.171
