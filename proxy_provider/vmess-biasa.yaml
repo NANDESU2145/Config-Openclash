@@ -81,7 +81,7 @@ proxies:
 #       Host: worry.free.slowssh.my.id
 - name: DO 1
   type: vmess
-  server: 104.26.7.171
+  server: 104.22.24.131
   port: 80
   uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
   alterId: 0
@@ -97,7 +97,7 @@ proxies:
       Host: sg3-v2ray.sshkit.org
 - name: atha
   type: vmess
-  server: 104.26.7.171
+  server: 104.22.24.131
   port: 80
   uuid: 1a3cc25b-ed43-44c0-b75f-3e4c41419a1d
   alterId: 0
