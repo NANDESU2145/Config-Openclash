@@ -95,3 +95,19 @@ proxies:
     path: /vmessws
     headers:
       Host: atha.bukanvvip.my.id
+- name: atha 2
+  type: vmess
+  server: gw.ruangguru.com
+  port: 80
+  uuid: 1a3cc25b-ed43-44c0-b75f-3e4c41419a1d
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmessws
+    headers:
+      Host: atha.bukanvvip.my.id
