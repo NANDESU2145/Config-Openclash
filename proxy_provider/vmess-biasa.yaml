@@ -95,11 +95,11 @@ proxies:
     path: /vmess
     headers:
       Host: sg2.createxray.me
-- name: atha 2
+- name: ga tau serper apa ini
   type: vmess
-  server: gw.ruangguru.com
+  server: 104.22.24.131
   port: 80
-  uuid: 1a3cc25b-ed43-44c0-b75f-3e4c41419a1d
+  uuid: 032339ef-2d12-4d97-9872-8c237f52099f
   alterId: 0
   udp: true
   cipher: auto
@@ -110,7 +110,7 @@ proxies:
   ws-opts:
     path: /vmessws
     headers:
-      Host: atha.bukanvvip.my.id
+      Host: datacamp.rayzellvpn.my.id
 - name: nusanet
   type: vmess
   server: 104.22.24.131
