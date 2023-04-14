@@ -83,7 +83,7 @@ proxies:
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: 1a3cc25b-ed43-44c0-b75f-3e4c41419a1d
+  uuid: c714f503-3a4c-4ff5-8e89-9106489d6630
   alterId: 0
   udp: true
   cipher: auto
@@ -92,9 +92,9 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmessws
+    path: /vmess
     headers:
-      Host: atha.bukanvvip.my.id
+      Host: sg2.createxray.me
 - name: atha 2
   type: vmess
   server: gw.ruangguru.com
