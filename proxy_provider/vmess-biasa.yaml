@@ -108,7 +108,7 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmessws
+    path: /vmess
     headers:
       Host: datacamp.rayzellvpn.my.id
 - name: nusanet
