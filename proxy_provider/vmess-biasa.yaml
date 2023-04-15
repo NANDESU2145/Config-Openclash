@@ -79,11 +79,11 @@ proxies:
 #     path: /worryfree
 #     headers:
 #       Host: worry.free.slowssh.my.id
-- name: createxray
+- name: sg5 sshocean
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: c714f503-3a4c-4ff5-8e89-9106489d6630
+  uuid: b314e07d-6816-4288-a91c-a8b2938e4397
   alterId: 0
   udp: true
   cipher: auto
@@ -94,7 +94,7 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: sg2.createxray.me
+      Host: sg5.v2rayserv.com
 - name: ga tau serper apa ini
   type: vmess
   server: 104.22.24.131
