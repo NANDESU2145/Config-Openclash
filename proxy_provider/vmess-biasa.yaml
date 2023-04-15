@@ -143,3 +143,19 @@ proxies:
     path: /vmess
     headers:
       Host: sg2-mlb.v2rayserv.com
+- name: sshstore sg
+  type: vmess
+  server: 104.22.24.131
+  port: 80
+  uuid: f54b08de-e6b7-4968-a22f-b5d52cc9aaaf
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg4.vm.xservs.xyz
