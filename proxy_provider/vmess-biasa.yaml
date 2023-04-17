@@ -159,3 +159,19 @@ proxies:
     path: /vmess
     headers:
       Host: sg4.vm.xservs.xyz
+- name: trial
+  type: vmess
+  server: 104.22.24.131
+  port: 80
+  uuid: b04942a1-44f6-4365-a072-b86c0affe6b5
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: susuku.putrastores.xyz
