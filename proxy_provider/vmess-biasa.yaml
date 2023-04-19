@@ -131,7 +131,7 @@ proxies:
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: 227771e6-a076-41b0-b94a-0de5d38c25fe
+  uuid: 74e25135-14e7-4d64-9ed1-b05331ddc536
   alterId: 0
   udp: true
   cipher: auto
@@ -140,9 +140,9 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmess
+    path: /vmess/
     headers:
-      Host: sg2-mlb.v2rayserv.com
+      Host: bsg02.unlissh.cfd
 - name: serverssh.net
   type: vmess
   server: 104.22.24.131
