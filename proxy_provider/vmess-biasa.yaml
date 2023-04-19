@@ -143,11 +143,11 @@ proxies:
     path: /vmess
     headers:
       Host: sg2-mlb.v2rayserv.com
-- name: sshstore sg
+- name: serverssh.net
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: f54b08de-e6b7-4968-a22f-b5d52cc9aaaf
+  uuid: 3cc21b0f-28fe-44ad-a242-ae3c2956152c
   alterId: 0
   udp: true
   cipher: auto
@@ -156,14 +156,14 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmess
+    path: /serverssh.net
     headers:
-      Host: sg4.vm.xservs.xyz
-- name: trial
+      Host: sg2ray.serverip.my.id
+- name: opentunnel
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: b04942a1-44f6-4365-a072-b86c0affe6b5
+  uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
   alterId: 0
   udp: true
   cipher: auto
@@ -172,6 +172,6 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmess
+    path: /opentunnel?user=opentunnel.net-hanan
     headers:
-      Host: susuku.putrastores.xyz
+      Host: sgv-6.openv2ray.com
