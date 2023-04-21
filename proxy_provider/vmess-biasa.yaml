@@ -95,38 +95,6 @@ proxies:
     path: /vmess
     headers:
       Host: sg5.v2rayserv.com
-- name: ga tau serper apa ini
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: 032339ef-2d12-4d97-9872-8c237f52099f
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: datacamp.rayzellvpn.my.id
-- name: nusanet
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: 82b72624-2606-44b3-923f-a727c0f4b7d6
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmessws
-    headers:
-      Host: id2.v2rayserv.com
 - name: triala
   type: vmess
   server: 104.22.24.131
