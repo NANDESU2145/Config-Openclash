@@ -127,19 +127,3 @@ proxies:
     path: /vmessws
     headers:
       Host: id2.v2rayserv.com
-- name: melbi
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: 74e25135-14e7-4d64-9ed1-b05331ddc536
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: bsg02.unlissh.cfd
