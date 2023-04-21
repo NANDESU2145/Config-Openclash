@@ -159,19 +159,3 @@ proxies:
     path: /serverssh.net
     headers:
       Host: sg2ray.serverip.my.id
-- name: opentunnel
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /opentunnel?user=opentunnel.net-hanan
-    headers:
-      Host: sgv-6.openv2ray.com
