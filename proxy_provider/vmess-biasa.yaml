@@ -143,19 +143,3 @@ proxies:
     path: /vmess/
     headers:
       Host: bsg02.unlissh.cfd
-- name: serverssh.net
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: 3cc21b0f-28fe-44ad-a242-ae3c2956152c
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /serverssh.net
-    headers:
-      Host: sg2ray.serverip.my.id
