@@ -111,11 +111,11 @@ proxies:
     path: /vmess
     headers:
       Host: id3.v2rayserv.com
-- name: nande
+- name: nandeya
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: 26be8e28-33d0-43bb-8a46-f7931031261a
+  uuid: d18a042b-e9ef-45d1-9d1e-0052ffa8b30f
   alterId: 0
   udp: true
   cipher: auto
@@ -124,9 +124,9 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /v2ray
+    path: /worryfree
     headers:
-      Host: idc-v2.bhm.my.id
+      Host: v2ray1.udpgw.com
 - name: nandanna
   type: vmess
   server: 104.22.24.131
