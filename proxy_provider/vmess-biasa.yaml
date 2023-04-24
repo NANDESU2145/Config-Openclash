@@ -127,11 +127,11 @@ proxies:
     path: /v2ray
     headers:
       Host: idc-v2.bhm.my.id
-- name: tes123
+- name: nandanna
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: a733ccb8-3f9e-4877-8349-16d4f511ccfa
+  uuid: 15666e85-4694-47d2-a8d1-1b0633ad842a
   alterId: 0
   udp: true
   cipher: auto
@@ -140,9 +140,9 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmess
+    path: /worryfree
     headers:
-      Host: id.duniavpn.org
+      Host: nusa1.idpremium.my.id
 - name: nandart
   type: vmess
   server: 104.22.24.131
