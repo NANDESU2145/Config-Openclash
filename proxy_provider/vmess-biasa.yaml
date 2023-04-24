@@ -79,38 +79,6 @@ proxies:
 #     path: /worryfree
 #     headers:
 #       Host: worry.free.slowssh.my.id
-- name: sg5 sshocean
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: b314e07d-6816-4288-a91c-a8b2938e4397
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg5.v2rayserv.com
-- name: triala
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: 35f641ee-bfb5-4c4f-85a4-4bad2011a409
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: id3.v2rayserv.com
 - name: nandeya
   type: vmess
   server: 104.22.24.131
