@@ -95,22 +95,6 @@ proxies:
     path: /worryfree
     headers:
       Host: v2ray1.udpgw.com
-- name: nandanna
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: 15666e85-4694-47d2-a8d1-1b0633ad842a
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: nusa1.idpremium.my.id
 - name: nandart
   type: vmess
   server: 104.22.24.131
