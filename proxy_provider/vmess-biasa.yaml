@@ -127,4 +127,3 @@ proxies:
     path: /vmess
     headers:
       Host: server1.putrastores.xyz
-      
