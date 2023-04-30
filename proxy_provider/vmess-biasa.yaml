@@ -95,11 +95,11 @@ proxies:
     path: /worryfree
     headers:
       Host: v2ray1.udpgw.com
-- name: anunya
+- name: anunya saya
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: df510bf1-ffd3-4673-b437-412484ea0996
+  uuid: fb53bdc1-aacc-44a1-b783-0f474b5b1d9d
   alterId: 0
   udp: true
   cipher: auto
@@ -110,7 +110,7 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: sg1.xvless.xyz
+      Host: linodeku.nexsusvpn.me
 - name: anunya aja
   type: vmess
   server: 104.22.24.131
