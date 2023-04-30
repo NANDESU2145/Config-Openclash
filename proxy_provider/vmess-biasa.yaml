@@ -111,3 +111,20 @@ proxies:
     path: /vmess
     headers:
       Host: sg1.xvless.xyz
+- name: anunya aja
+  type: vmess
+  server: 104.22.24.131
+  port: 80
+  uuid: 05bd8a90-901f-4816-a0d5-1723aae2c7ae
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: server1.putrastores.xyz
+      
