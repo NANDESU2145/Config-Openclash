@@ -95,35 +95,3 @@ proxies:
     path: /worryfree
     headers:
       Host: v2ray1.udpgw.com
-- name: nandart
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: df510bf1-ffd3-4673-b437-412484ea0996
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg1.xvless.xyz
-- name: ya apa
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: 2c57ec10-9495-45b6-a2b7-0176966a4722
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: freesg.fsshstore.me
