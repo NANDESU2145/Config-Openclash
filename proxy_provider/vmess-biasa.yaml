@@ -143,3 +143,19 @@ proxies:
     path: /vmess
     headers:
       Host: datacamp.dunia-vpn.my.id
+- name: trial 
+  type: vmess
+  server: 104.22.24.131
+  port: 80
+  uuid: 6d79a42b-cd18-4ec7-b5f7-b5f00e1ae7db
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: dynamic-sg1b.obfs.xyz
