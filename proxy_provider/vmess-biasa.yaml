@@ -127,11 +127,11 @@ proxies:
     path: /vmess
     headers:
       Host: server1.putrastores.xyz
-- name: ya saya
+- name: apa gw kata
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: 459780c9-7134-4e62-a7bc-8b934b6398a9
+  uuid: 71f26931-414a-4fc4-aa66-cec23335eb28
   alterId: 0
   udp: true
   cipher: auto
@@ -142,7 +142,7 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: datacamp.dunia-vpn.my.id
+      Host: sgdo.duniavpn.site
 - name: trial 
   type: vmess
   server: 104.22.24.131
