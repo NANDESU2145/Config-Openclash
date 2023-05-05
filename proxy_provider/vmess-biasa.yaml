@@ -79,11 +79,11 @@ proxies:
 #     path: /worryfree
 #     headers:
 #       Host: worry.free.slowssh.my.id
-- name: nandeya
+- name: nandeyan
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: d18a042b-e9ef-45d1-9d1e-0052ffa8b30f
+  uuid: 8403a110-eafa-11ed-b133-205c6d5f5d78
   alterId: 0
   udp: true
   cipher: auto
@@ -92,7 +92,7 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /worryfree
+    path: /e4khof9c
     headers:
       Host: v2ray1.udpgw.com
 - name: anunya saya
