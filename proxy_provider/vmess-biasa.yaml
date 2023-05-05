@@ -94,7 +94,7 @@ proxies:
   ws-opts:
     path: /e4khof9c
     headers:
-      Host: v2ray1.udpgw.com
+      Host: sg-3.0rd.net
 - name: anunya saya
   type: vmess
   server: 104.22.24.131
