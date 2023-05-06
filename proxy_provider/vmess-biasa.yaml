@@ -127,3 +127,19 @@ proxies:
     path: /worryfree
     headers:
       Host: tsel.me
+- name: trial 1 
+  type: vmess
+  server: 104.22.24.131
+  port: 80
+  uuid: be45e3ee-5985-4c96-be63-6ecd682fcbf6
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: id.duniavpn.org
