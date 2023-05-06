@@ -110,4 +110,20 @@ proxies:
   ws-opts:
     path: /sweet
     headers:
-      Host: vmess-biz2.vpsme.my.id
+      Host: vmess-biz2.vpsme.my.id 
+- name: opok indo 
+  type: vmess
+  server: vmess-biz2.vpsme.my.id
+  port: 80
+  uuid: ecaee2d6-fae1-42bf-9b43-668ccb9fbb8a
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: tsel.me
