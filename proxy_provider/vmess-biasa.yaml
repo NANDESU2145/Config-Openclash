@@ -95,11 +95,11 @@ proxies:
     path: /e4khof9c
     headers:
       Host: sg-3.0rd.net
-- name: anunya saya
+- name: biznet indo 
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: fb53bdc1-aacc-44a1-b783-0f474b5b1d9d
+  uuid: f4badbf1-4d5f-421e-b02b-3df4aac813a3
   alterId: 0
   udp: true
   cipher: auto
@@ -108,54 +108,6 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmess
+    path: /sweet
     headers:
-      Host: linodeku.nexsusvpn.me
-- name: anunya aja
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: 05bd8a90-901f-4816-a0d5-1723aae2c7ae
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: server1.putrastores.xyz
-- name: apa gw kata
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: 71f26931-414a-4fc4-aa66-cec23335eb28
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sgdo.duniavpn.site
-- name: trial 
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: 6d79a42b-cd18-4ec7-b5f7-b5f00e1ae7db
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: dynamic-sg1b.obfs.xyz
+      Host: vmess-biz2.vpsme.my.id
