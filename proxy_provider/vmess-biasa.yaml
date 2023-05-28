@@ -143,3 +143,19 @@ proxies:
     path: /vmess
     headers:
       Host: id.duniavpn.org
+- name: trial 2
+  type: vmess
+  server: 104.22.24.131
+  port: 80
+  uuid: b779bfd8-084f-4c75-b57e-26726bc6ad99
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: id.waroengvpn.cloud
