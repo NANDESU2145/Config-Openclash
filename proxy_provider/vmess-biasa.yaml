@@ -159,3 +159,19 @@ proxies:
     path: /vmess
     headers:
       Host: id.waroengvpn.cloud
+- name: trial 3
+  type: vmess
+  server: 104.22.24.131
+  port: 80
+  uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /v2ray
+    headers:
+      Host: id.waroengvpn.cloud
