@@ -174,4 +174,4 @@ proxies:
   ws-opts:
     path: /v2ray
     headers:
-      Host: id.waroengvpn.cloud
+      Host: 8fhq6a.aiossh.my.id
