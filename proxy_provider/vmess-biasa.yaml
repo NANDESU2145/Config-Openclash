@@ -111,3 +111,19 @@ proxies:
     path: /vmess
     headers:
       Host: ikd.premserver.cfd
+- name: trial 5
+  type: vmess
+  server: 104.22.24.131
+  port: 80
+  uuid: 8ce2f3f6-2b68-463e-bbfe-c2ac23433fa8
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: do-amd.duniavpn.org
