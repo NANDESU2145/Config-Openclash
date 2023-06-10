@@ -95,38 +95,6 @@ proxies:
     path: /v2ray
     headers:
       Host: 8fhq6a.aiossh.my.id
-- name: trial 4
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: 3fd9be0c-0b2f-4c51-b707-1fbc56db3b2e
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: ikd.premserver.cfd
-- name: trial 5
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: 8ce2f3f6-2b68-463e-bbfe-c2ac23433fa8
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: do-amd.duniavpn.org
 - name: trial 6
   type: vmess
   server: 104.22.24.131
