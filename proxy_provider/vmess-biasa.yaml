@@ -95,6 +95,22 @@ proxies:
     path: /v2ray
     headers:
       Host: 8fhq6a.aiossh.my.id
+- name: trial 4
+  type: vmess
+  server: 104.22.24.131
+  port: 80
+  uuid: 018bcfb6-8723-4e11-9881-2074a8ee4df8
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: do-sg01.sshxvpn.me
 - name: trial 6
   type: vmess
   server: 104.22.24.131
