@@ -115,7 +115,7 @@ proxies:
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: 018bcfb6-8723-4e11-9881-2074a8ee4df8
+  uuid: 4a7e75e0-0bd4-11ee-a6ee-1577c1651679
   alterId: 0
   udp: true
   cipher: auto
@@ -124,9 +124,9 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmess
+    path: /files
     headers:
-      Host: do-sg01.sshxvpn.me
+      Host: 1.htmlcdn.net
 - name: trial 6
   type: vmess
   server: 104.22.24.131
