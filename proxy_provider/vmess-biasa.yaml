@@ -131,7 +131,7 @@ proxies:
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: 11255dd6-c36e-4bf9-ad5e-dfb228b09298
+  uuid: 078bb6e3-3a78-4f8b-b548-83a9041a2879
   alterId: 0
   udp: true
   cipher: auto
@@ -140,6 +140,6 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmess
+    path: /worryfree
     headers:
-      Host: id-rysa-put-ra18n19xz.live
+      Host: id2.bukanvvip.my.id
