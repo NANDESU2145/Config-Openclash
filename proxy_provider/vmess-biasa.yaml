@@ -78,28 +78,12 @@ proxies:
 #   ws-opts:
 #     path: /worryfree
 #     headers:
-#       Host: worry.free.slowssh.my.id
-- name: trial 3
+#       Host: 
+- name: sgdo
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /v2ray
-    headers:
-      Host: 8fhq6a.aiossh.my.id
-- name: trial 4
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: 018bcfb6-8723-4e11-9881-2074a8ee4df8
+  uuid: pwrwb-nan
   alterId: 0
   udp: true
   cipher: auto
@@ -110,36 +94,4 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: do-sg01.sshxvpn.me
-- name: trial 5
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: 4a7e75e0-0bd4-11ee-a6ee-1577c1651679
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /files
-    headers:
-      Host: 1.htmlcdn.net
-- name: trial 6
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: 078bb6e3-3a78-4f8b-b548-83a9041a2879
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: id2.bukanvvip.my.id
+      Host: sgdo1.wrwb.tech
