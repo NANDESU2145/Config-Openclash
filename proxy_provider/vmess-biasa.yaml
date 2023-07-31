@@ -83,7 +83,7 @@ proxies:
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: 091777b5-d405-447c-8f2a-fee655d158d5
+  uuid: pwrwb-nan
   alterId: 0
   udp: true
   cipher: auto
