@@ -95,11 +95,11 @@ proxies:
     path: /vmess
     headers:
       Host: sgdo1.wrwb.tech
-- name: trial
+- name: entah1
   type: vmess
   server: 104.22.24.131
   port: 80
-  uuid: 091777b5-d405-447c-8f2a-fee655d158d5
+  uuid: f5c89e7f-efbb-4f60-acdf-4d88e22fce51
   alterId: 0
   udp: true
   cipher: auto
@@ -110,4 +110,4 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: vip2.ipssh.eu.org
+      Host: id-qw.vpnprem.me
