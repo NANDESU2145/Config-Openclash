@@ -1,17 +1,17 @@
 proxies:
-# - name: ID Trojan
-#   type: trojan
-#   server: 104.21.8.121
-#   port: 443
-#   password: 73c08127-ff6a-4e6c-857b-aa9a90464dd6
-#   udp: true
-#   sni: beacon.liveon.id
-#   skip-cert-verify: true
-#   network: ws
-#   ws-opts:
-#     path: wss://beacon.liveon.id/bukanvvip
-#     headers:
-#       Host: ikd.bukanvvip.my.id
+- name: SG Trojan
+  type: trojan
+  server: ilped.estebuh.my.id
+  port: 443
+  password: 49e04614-b117-4ae3-8c11-d2f4debeae2b
+  udp: true
+  sni: ilped.estebuh.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg-do3.estebuh.my.id
 # - name: IKD
 #   server: 162.159.128.7
 #   port: 443
