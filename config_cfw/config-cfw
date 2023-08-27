@@ -64,30 +64,65 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
       interval: 300
 # ================= proxy-groups==================
+proxy-providers:
+  # Vmess:
+  #   type: http
+  #   path: "./proxy_provider/vmess-biasa.yaml"
+  #   url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/proxy_provider/vmess-biasa.yaml
+  #   interval: 3600
+  #   health-check:
+  #     enable: true
+  #     url: http://www.gstatic.com/generate_204
+  #     interval: 300
+  Trojan:
+    type: http
+    path: "./proxy_provider/trojan.yaml"
+    url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/proxy_provider/Trojan.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+  # Vless: 
+  #   type: http
+  #   path: "./proxy_provider/vless.yaml"
+  #   url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/proxy_provider/Vless.yaml
+  #   interval: 3600
+  #   health-check:
+  #     enable: true
+  #     url: http://www.gstatic.com/generate_204
+  #     interval: 300
+# ================= proxy-groups==================
 proxy-groups:
 - name: 🔑Proxy
   type: select
   proxies:
-    - Loadbalancing
-    - all-akun
-    - auto_select_ping_imut
+    - SERVER 🚀
+    - all-akun 🛰
+    - auto_select_ping_imut 🔥
     - fallback-auto
-- name: Loadbalancing
+- name: SERVER 🚀
   type: load-balance
   strategy: round-robin
   disable-udp: false
   use:
-  - Vmess
+  # - Vmess
+  - Trojan
+  # - Vless
   url: http://www.gstatic.com/generate_204
   interval: 300
-- name: all-akun
+- name: all-akun 🛰
   type: select
   use:
-  - Vmess
-- name: auto_select_ping_imut
+  # - Vmess
+  - Trojan
+  # - Vless
+- name: auto_select_ping_imut 🔥
   type: url-test
   use:
-  - Vmess
+  # - Vmess
+  - Trojan
+  # - Vless
   url: http://www.gstatic.com/generate_204
   interval: 300
   lazy: true
@@ -95,7 +130,9 @@ proxy-groups:
 - name: fallback-auto
   type: fallback
   use: 
-  - Vmess
+  # - Vmess
+  - Trojan
+  # - Vless
   url: http://www.gstatic.com/generate_204
   interval: 300
   lazy: true
