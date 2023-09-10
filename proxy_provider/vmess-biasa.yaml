@@ -79,11 +79,27 @@ proxies:
 #     path: /worryfree
 #     headers:
 #       Host: 
-- name: sgdo
+# - name: sgdo
+#   type: vmess
+#   server: 104.22.24.131
+#   port: 80
+#   uuid: pwrwb-nan
+#   alterId: 0
+#   udp: true
+#   cipher: auto
+#   tls: false
+#   skip-cert-verify: true
+#   servername: ruangguru.com
+#   network: ws
+#   ws-opts:
+#     path: /vmess
+#     headers:
+#       Host: sgdo1.wrwb.tech
+- name: entah2
   type: vmess
-  server: 104.22.24.131
+  server: 104.17.3.81
   port: 80
-  uuid: pwrwb-nan
+  uuid: fd1bd3d9-1985-4782-adb2-e87a2eec7be6
   alterId: 0
   udp: true
   cipher: auto
@@ -92,22 +108,6 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmess
+    path: /vmess-nonetls
     headers:
-      Host: sgdo1.wrwb.tech
-- name: entah1
-  type: vmess
-  server: 104.22.24.131
-  port: 80
-  uuid: f5c89e7f-efbb-4f60-acdf-4d88e22fce51
-  alterId: 0
-  udp: true
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: ruangguru.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: id-qw.vpnprem.me
+      Host: sg2nws.mainssh.xyz
