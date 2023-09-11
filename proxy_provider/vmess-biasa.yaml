@@ -97,7 +97,7 @@ proxies:
 #       Host: sgdo1.wrwb.tech
 - name: entah2
   type: vmess
-  server: 104.17.3.81
+  server: 104.26.6.171
   port: 80
   uuid: fd1bd3d9-1985-4782-adb2-e87a2eec7be6
   alterId: 0
@@ -113,7 +113,7 @@ proxies:
       Host: sg2nws.mainssh.xyz
 - name: entah2
   type: vmess
-  server: 104.22.24.131
+  server: 104.26.6.171
   port: 80
   uuid: afabf009-1826-49fa-8fe5-d679492dfe50
   alterId: 0
