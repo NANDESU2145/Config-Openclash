@@ -95,7 +95,7 @@ proxies:
 #     path: /vmess
 #     headers:
 #       Host: sgdo1.wrwb.tech
-- name: entah2
+- name: test1
   type: vmess
   server: 104.26.6.171
   port: 80
