@@ -111,3 +111,19 @@ proxies:
     path: /vmess-nonetls
     headers:
       Host: sg2nws.mainssh.xyz
+- name: entah2
+  type: vmess
+  server: 104.17.3.81
+  port: 80
+  uuid: afabf009-1826-49fa-8fe5-d679492dfe50
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /JAGOANSSH
+    headers:
+      Host: sg2-ray.ipservers.xyz
