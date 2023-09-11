@@ -111,7 +111,7 @@ proxies:
     path: /vmess-nonetls
     headers:
       Host: sg2nws.mainssh.xyz
-- name: entah2
+- name: entah3
   type: vmess
   server: 104.26.6.171
   port: 80
@@ -127,7 +127,7 @@ proxies:
     path: /JAGOANSSH/
     headers:
       Host: sg2-ray.ipservers.xyz
-- name: entah3
+- name: entah4
   type: vmess
   server: 104.26.6.171
   port: 80
