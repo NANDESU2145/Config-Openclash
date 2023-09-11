@@ -124,6 +124,6 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /JAGOANSSH
+    path: /JAGOANSSH/
     headers:
       Host: sg2-ray.ipservers.xyz
