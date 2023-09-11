@@ -99,7 +99,7 @@ proxies:
   type: vmess
   server: 104.26.6.171
   port: 80
-  uuid: fd1bd3d9-1985-4782-adb2-e87a2eec7be6
+  uuid: 4575d247-84ea-4112-a0e9-5e1681541dec
   alterId: 0
   udp: true
   cipher: auto
@@ -108,9 +108,9 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmess-nonetls
+    path: /vmess/
     headers:
-      Host: sg2nws.mainssh.xyz
+      Host: fvci.my.id
 - name: entah3
   type: vmess
   server: 104.26.6.171
