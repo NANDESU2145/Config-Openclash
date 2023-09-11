@@ -127,3 +127,19 @@ proxies:
     path: /JAGOANSSH/
     headers:
       Host: sg2-ray.ipservers.xyz
+- name: entah3
+  type: vmess
+  server: 104.26.6.171
+  port: 80
+  uuid: 1d3c3ded-2ce2-4760-a3c7-456ef743eef5
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: svr.putravpn.my.id
