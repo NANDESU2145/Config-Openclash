@@ -1,17 +1,17 @@
 proxies:
 - name: SG Trojan
   type: trojan
-  server: ilped.estebuh.my.id
+  server: 104.26.6.171
   port: 443
-  password: 49e04614-b117-4ae3-8c11-d2f4debeae2b
+  password: 9adb5140-707d-4190-b8a3-2aa81ec18c54
   udp: true
-  sni: ilped.estebuh.my.id
+  sni: ruangguru.com
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan
+    path: /trojan-ws
     headers:
-      Host: sg-do3.estebuh.my.id
+      Host: sgp.duniavpn.site
 # - name: IKD
 #   server: 162.159.128.7
 #   port: 443
