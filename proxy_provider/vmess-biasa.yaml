@@ -131,7 +131,7 @@ proxies:
   type: vmess
   server: 104.26.6.171
   port: 80
-  uuid: 1d3c3ded-2ce2-4760-a3c7-456ef743eef5
+  uuid: 9adb5140-707d-4190-b8a3-2aa81ec18c54
   alterId: 0
   udp: true
   cipher: auto
@@ -140,6 +140,6 @@ proxies:
   servername: ruangguru.com
   network: ws
   ws-opts:
-    path: /vmess/
+    path: /trojan-ws
     headers:
-      Host: svr.putravpn.my.id
+      Host: sgp.duniavpn.site
