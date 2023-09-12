@@ -5,7 +5,7 @@ proxies:
   port: 443
   password: 9adb5140-707d-4190-b8a3-2aa81ec18c54
   udp: true
-  sni: ruangguru.com
+  sni: sgp.duniavpn.site
   skip-cert-verify: true
   network: ws
   ws-opts:
