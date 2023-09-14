@@ -5,7 +5,7 @@ proxies:
   port: 443
   password: 1fyuJiVwYYw2NkAQ9zxCrQ
   udp: true
-  sni: sgp.duniavpn.site
+  sni: id.bukanvvip.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
