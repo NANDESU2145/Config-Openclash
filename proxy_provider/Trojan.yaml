@@ -1,17 +1,17 @@
 proxies:
-- name: SG Trojan
+- name: SG Trojan Biznet
   type: trojan
   server: 104.26.6.171
   port: 443
-  password: 9adb5140-707d-4190-b8a3-2aa81ec18c54
+  password: 1fyuJiVwYYw2NkAQ9zxCrQ
   udp: true
   sni: sgp.duniavpn.site
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /trojanws
     headers:
-      Host: sgp.duniavpn.site
+      Host: id.bukanvvip.my.id
 # - name: IKD
 #   server: 162.159.128.7
 #   port: 443
