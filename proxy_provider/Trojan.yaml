@@ -1,7 +1,7 @@
 proxies:
 - name: SG Trojan Biznet
   type: trojan
-  server: 104.26.6.171
+  server: 104.18.2.2
   port: 443
   password: 4mIMuKo98ZcTUGmtodZ7rg
   udp: true
