@@ -3,9 +3,9 @@ proxies:
   type: trojan
   server: 104.18.2.2
   port: 443
-  password: 4mIMuKo98ZcTUGmtodZ7rg
+  password: 4zSpoeBWG3RXk4oAA7WGgg
   udp: true
-  sni: ctn2.xmd.my.id
+  sni: bgn1.xmd.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
