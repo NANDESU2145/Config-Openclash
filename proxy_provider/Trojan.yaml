@@ -11,7 +11,7 @@ proxies:
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: ctn2.xmd.my.id
+      Host: bgn1.xmd.my.id
 # - name: IKD
 #   server: 162.159.128.7
 #   port: 443
