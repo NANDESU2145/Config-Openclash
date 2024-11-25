@@ -5,13 +5,13 @@ proxies:
   port: 443
   password: 4zSpoeBWG3RXk4oAA7WGgg
   udp: true
-  sni: bgn1.xmd.my.id
+  sni: bgn1.xmd1.tech
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: bgn1.xmd.my.id
+      Host: bgn1.xmd1.tech
 # - name: IKD
 #   server: 162.159.128.7
 #   port: 443
