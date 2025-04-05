@@ -30,19 +30,19 @@ proxies:
 #     headers:
 #       Host: nusa.bukanvvip.my.id
 - name: opokvless
-  server: 103.157.116.44
+  server: 172.67.22.129
   port: 443
   type: vless
-  uuid: 7df3e9b1-2d50-4b95-b264-80029e7dd46e
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
-  servername: tsel.me
+  servername: quiz.int.vidio.com.free.c-stuff.net
   network: ws
   ws-opts:
-    path: /worryfree
+    path: /Free/TG-at-BitzBlack/36.95.152.58-12137
     headers:
-      Host: tsel.me
+      Host: quiz.int.vidio.com.free.c-stuff.net
   udp: true
 - name: Gege
   server: 188.166.240.222
