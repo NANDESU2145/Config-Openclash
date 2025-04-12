@@ -3,15 +3,15 @@ proxies:
   type: trojan
   server: 104.18.2.2
   port: 443
-  password: 4zSpoeBWG3RXk4oAA7WGgg
+  password: 97d90875-5853-4356-bd36-cf403ecdb29b
   udp: true
-  sni: bgn1.xmd1.tech
+  sni: cf.novantunnel.life
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /Novan-ID6
     headers:
-      Host: bgn1.xmd1.tech
+      Host: cf.novantunnel.life
 # - name: IKD
 #   server: 162.159.128.7
 #   port: 443
