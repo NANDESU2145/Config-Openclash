@@ -1,5 +1,5 @@
 proxies:
-- name: SG Trojan Biznet
+- name: 🇮🇩6
   type: trojan
   server: 104.18.2.2
   port: 443
