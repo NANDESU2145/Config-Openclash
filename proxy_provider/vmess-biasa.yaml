@@ -81,7 +81,7 @@ proxies:
 #       Host: 
 - name: sgdo
   type: vmess
-  server: 104.22.24.131
+  server: 172.67.22.129
   port: 443
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
@@ -97,7 +97,7 @@ proxies:
       Host: sgfqkqmltcy.site
 - name: Indonesia 🇮🇩
   type: vmess
-  server: 104.18.2.2
+  server: 172.67.22.129
   port: 443
   uuid: 9983624a-ce6c-43ac-bf21-35e1f4523d3b
   alterId: 0
