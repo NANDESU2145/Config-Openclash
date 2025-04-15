@@ -95,9 +95,9 @@ proxies:
 #     path: /vmess
 #     headers:
 #       Host: sgdo1.wrwb.tech
-- name: SGDO 🇸🇬
+- name: Indonesia 🇮🇩
   type: vmess
-  server: 104.26.6.171
+  server: 172.67.22.129
   port: 80
   uuid: 02037233-6409-4564-8610-8f7ee870e6c4
   alterId: 0
