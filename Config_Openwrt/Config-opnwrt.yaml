@@ -15,6 +15,12 @@ unified-delay: true
 ipv6: false
 profile:
   store-selected: true
+ntp:
+  enable: true
+  write-to-system: true
+  server: time.apple.com
+  port: 123
+  interval: 30
 dns:
   enable: true
   ipv6: false
