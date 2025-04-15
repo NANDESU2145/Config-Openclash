@@ -97,7 +97,7 @@ proxies:
 #       Host: sgdo1.wrwb.tech
 - name: Indonesia 🇮🇩
   type: vmess
-  server: 172.67.22.129
+  server: 104.26.7.171
   port: 80
   uuid: 9983624a-ce6c-43ac-bf21-35e1f4523d3b
   alterId: 0
