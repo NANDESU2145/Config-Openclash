@@ -98,12 +98,12 @@ proxies:
 - name: Indonesia 🇮🇩
   type: vmess
   server: 104.18.2.2
-  port: 80
+  port: 443
   uuid: 9983624a-ce6c-43ac-bf21-35e1f4523d3b
   alterId: 0
   udp: true
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   servername: server-tendo.store
   network: ws
