@@ -99,15 +99,15 @@ proxies:
   type: vmess
   server: 172.67.22.129
   port: 80
-  uuid: 02037233-6409-4564-8610-8f7ee870e6c4
+  uuid: 9983624a-ce6c-43ac-bf21-35e1f4523d3b
   alterId: 0
   udp: true
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: ruangguru.com
+  servername: server-tendo.store
   network: ws
   ws-opts:
-    path: /vmess-ws
+    path: /vmess
     headers:
-      Host: ido1.zx2c.me
+      Host: server-tendo.store
