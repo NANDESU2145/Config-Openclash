@@ -79,7 +79,7 @@ proxies:
 #     path: /worryfree
 #     headers:
 #       Host: 
-- name: sgdo
+- name: sgdo 🇸🇬
   type: vmess
   server: 172.67.22.129
   port: 443
