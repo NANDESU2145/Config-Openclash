@@ -79,22 +79,22 @@ proxies:
 #     path: /worryfree
 #     headers:
 #       Host: 
-# - name: sgdo
-#   type: vmess
-#   server: 104.22.24.131
-#   port: 80
-#   uuid: pwrwb-nan
-#   alterId: 0
-#   udp: true
-#   cipher: auto
-#   tls: false
-#   skip-cert-verify: true
-#   servername: ruangguru.com
-#   network: ws
-#   ws-opts:
-#     path: /vmess
-#     headers:
-#       Host: sgdo1.wrwb.tech
+- name: sgdo
+  type: vmess
+  server: 104.22.24.131
+  port: 443
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  udp: true
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: ruangguru.com
+  network: ws
+  ws-opts:
+    path: /rbqqvws
+    headers:
+      Host: sgfqkqmltcy.site
 - name: Indonesia 🇮🇩
   type: vmess
   server: 104.18.2.2
