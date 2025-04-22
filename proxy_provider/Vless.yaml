@@ -14,21 +14,21 @@ proxies:
 #     path: wss://nusa.bukanvvip.my.id/vless
 #     headers:
 #       Host: toretto.culoboyo-vpn.xyz
-# - name: vless nusa
-#   server: 104.22.24.131
-#   port: 443
-#   type: vless
-#   uuid: 6405cf62-e292-466f-aa18-67ac7bef97f2
-#   cipher: auto
-#   tls: true
-#   skip-cert-verify: true
-#   servername: nusa.bukanvvip.my.id
-#   network: ws
-#   udp: true
-#   ws-opts:
-#     path: wss://nusa.bukanvvip.my.id/websocket
-#     headers:
-#       Host: nusa.bukanvvip.my.id
+- name: vless nusa
+  server: 172.67.22.129
+  port: 443
+  type: vless
+  uuid: ZEROXNXX-XXXXXX-XXX
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vless.zerostore.web.id
+  network: ws
+  udp: true
+  ws-opts:
+    path: /vless\u003d43.218.77.16\u003d1443
+    headers:
+      Host: vless.zerostore.web.id
 - name: opokvless
   server: 172.67.22.129
   port: 443
