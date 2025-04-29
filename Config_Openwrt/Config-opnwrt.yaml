@@ -158,6 +158,12 @@ rule-providers:
     url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/main/rules_provider/WhatsApp.yaml
     path: "./rule_provider/WhatsApp.yaml"
     interval: 86400
+  pubg:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/NANDESU2145/Config-Openclash/refs/heads/main/rules_provider/PUBG-Asia%26-Southeast-Asia.rules
+    path: "./game_rules/PUBG-Asia&-Southeast-Asia.rules"
+    interval: 86400
 # ================= RULES ==================
 rules:
 - DOMAIN,mobile-legends.net,🔑Proxy
